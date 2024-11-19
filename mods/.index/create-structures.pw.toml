@@ -1,0 +1,16 @@
+filename = 'create-structures-0.1.1-1.20.1-FORGE.jar'
+name = 'Create: Structures'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '3a6ea50b29c8209bb51d2742b94e3b6d6e43deba0ef4b1509cbeccbc1bcfb953105627ff0188c8176928140b05cb1fe6c4de5d4dfcd530f6c36c952f2db43743'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IAnP4np7/versions/XALEBs0a/create-structures-0.1.1-1.20.1-FORGE.jar'
+
+[update.modrinth]
+mod-id = 'IAnP4np7'
+version = 'XALEBs0a'

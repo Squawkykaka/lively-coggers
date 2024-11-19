@@ -1,0 +1,16 @@
+filename = 'AdvancedBackups-forge-1.20-3.6.3.jar'
+name = 'Advanced Backups'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '821e229c0ac0158e632ecb7e16eea43af913906529add41bdf44e210ce0c24e480d6c0204ea1d9c6f5024386f8db322b4e1931fd7b1c355cd49a7b788143b158'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Jrmoreqs/versions/ceaIOXXB/AdvancedBackups-forge-1.20-3.6.3.jar'
+
+[update.modrinth]
+mod-id = 'Jrmoreqs'
+version = 'ceaIOXXB'

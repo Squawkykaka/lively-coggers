@@ -1,0 +1,16 @@
+filename = 'bigcontraptions-1.0.jar'
+name = 'Create: Big Contraptions'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0adb0e52632706465a5fd51e3610a76a16fb37a29b306adac792a196b22a0fa227eab17f9f077edf05814a715dc9d164ef6a1a3ce7d8fb135417b3e06a4b61d8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jv0UKGOX/versions/1KkyaeYb/bigcontraptions-1.0.jar'
+
+[update.modrinth]
+mod-id = 'jv0UKGOX'
+version = '1KkyaeYb'
