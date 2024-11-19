@@ -18,6 +18,8 @@ texturepacks/
 resourcepacks/
 config/
 /kubejs/probe/
+/defaultconfigs/
+/mods/.index/
 
 emi.json
 knownkeys.txt
