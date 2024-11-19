@@ -5,7 +5,7 @@ backups/
 .vscode/
 coremods/
 crash-reports/
-data/
+/data/
 local/
 logs/
 modernfix/
@@ -17,7 +17,7 @@ shaderpacks/
 texturepacks/
 resourcepacks/
 config/
-
+/kubejs/probe/
 
 emi.json
 knownkeys.txt
