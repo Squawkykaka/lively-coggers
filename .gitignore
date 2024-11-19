@@ -1,4 +1,5 @@
 .cache/
+mods/.index/
 .mixin.out/
 backups/
 .vscode/
@@ -14,10 +15,11 @@ screenshots/
 server-resource-packs/
 shaderpacks/
 texturepacks/
-emi.json
+resourcepacks/
 config/
 
 
+emi.json
 knownkeys.txt
 usercache.json
 options.txt
