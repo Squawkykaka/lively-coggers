@@ -15,6 +15,7 @@ server-resource-packs
 shaderpacks
 texturepacks
 emi.json
+config
 knownkeys.txt
 usercache.json
 options.txt
