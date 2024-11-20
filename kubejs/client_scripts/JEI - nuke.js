@@ -4,8 +4,5 @@ JEIEvents.hideItems(event => {
 
   event.hide([
     global.itemsToRemove,
-    'sophisticatedcore:experience'
   ])
-  
 })
-

@@ -26,5 +26,9 @@
          'sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:advanced_pickup_upgrade', 
          'sophisticatedbackpacks:advanced_pickup_upgrade', 'sophisticatedbackpacks:filter_upgrade',
          'sophisticatedbackpacks:pickup_upgrade'],
-         'sophisticatedbackpacks:upgrade_base'
+         'sophisticatedbackpacks:upgrade_base',
+         'sophisticatedbackpacks:backpack',
+         'sophisticatedbackpacks:netherite_backpack',
+         'create_enchantment_industry:experience_rotor',
+
    ] 
