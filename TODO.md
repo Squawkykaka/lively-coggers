@@ -1,3 +1,8 @@
 - Complete sophisticated backpacks crafting recipes
+    - Copper ✅
+    - Andesite ✅
+    - Brass
+    - Sturdy
 - Change toms storage recipes to lock behind logistical age
 - Complete large ore veins for coal, zinc, gold
+- retexture the copper_clips file

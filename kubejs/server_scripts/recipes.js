@@ -1,4 +1,8 @@
 ServerEvents.recipes(event => {
+    event.remove({id: 'sophisticatedbackpacks:iron_backpack_from_copper'})
+})
+
+ServerEvents.recipes(event => {
     event.recipes.create.mechanical_crafting('toms_storage:ts.adv_wireless_terminal', [
         'L  ',
         'CRC',
@@ -31,5 +35,42 @@ ServerEvents.recipes(event => {
         'L': 'minecraft:leather',
         'S': 'minecraft:string'
     })
-    
-  })
+
+    event.custom({
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "conditions": [
+          {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedbackpacks:iron_backpack"
+          }
+        ],
+        "key": {
+          "B": {
+            "item": "sophisticatedbackpacks:copper_backpack"
+          },
+          "A": {
+            "item": "create:fluid_pipe"
+          },
+          "S": {
+            "item": "create:shaft"
+          },
+          "C": {
+            "item": "create:andesite_casing"
+          },
+          "O": {
+            "item": "create:cogwheel"
+          },
+          "F": {
+            "item": "create:fluid_tank"
+          }
+          
+        },
+        "pattern": [
+          "ASA",
+          "CBC",
+          "FOF"
+        ], "result": {
+          "item": "sophisticatedbackpacks:iron_backpack"
+        }
+      });
+})
