@@ -1,0 +1,3 @@
+- Complete sophisticated backpacks crafting recipes
+- Change toms storage recipes to lock behind logistical age
+- Complete large ore veins for coal, zinc, gold

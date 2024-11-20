@@ -21,4 +21,15 @@ ServerEvents.recipes(event => {
     ])
 
     event.remove({input: "create_enchantment_industry:experience_rotor"})
+    event.shaped("sophisticatedbackpacks:copper_backpack", [
+        '#S#',
+        'LCL',
+        '#L#'
+    ], {
+        '#': 'minecraft:copper_ingot',
+        'C': 'minecraft:chest',
+        'L': 'minecraft:leather',
+        'S': 'minecraft:string'
+    })
+    
   })
