@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
             "item": "create:cogwheel"
           },
           "F": {
-            "item": "create:fluid_tank"
+            "item": "create:item_vault"
           }
           
         },
