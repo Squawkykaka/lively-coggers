@@ -11,4 +11,9 @@ Mainly based around create with some storage mods thrown in and integrated with 
     ```
 5. Rename the cloned folder to `.minecraft`.
 6. Launch the instance in prism launcher.
+7. Create a world, and one inside it run
+    ```sh
+    /probejs dump
+    ```
+    this will make autocomplete work in vscode
 7. Open the `.minecraft` folder in VSCode to make your changes.
