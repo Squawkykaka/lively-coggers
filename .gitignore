@@ -16,7 +16,7 @@ server-resource-packs/
 shaderpacks/
 texturepacks/
 resourcepacks/
-config/
+/config/
 /kubejs/probe/
 /defaultconfigs/
 /mods/.index/
