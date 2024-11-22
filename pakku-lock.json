@@ -1848,6 +1848,43 @@
             ]
         },
         {
+            "pakku_id": "N0fR6io9K1fCwajA",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "patchouli"
+            },
+            "name": {
+                "curseforge": "Patchouli"
+            },
+            "id": {
+                "curseforge": "306770"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Patchouli-1.20.1-84-FORGE.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4966/125/Patchouli-1.20.1-84-FORGE.jar",
+                    "id": "4966125",
+                    "parent_id": "306770",
+                    "hashes": {
+                        "sha1": "b6b7267f3669c10c167d5d375d0274d40e3eb756",
+                        "md5": "64452a4404a2c47a782ba99cb90c3ca0"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 642506,
+                    "date_published": "2023-12-18T11:28:42.253Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "0TWdAisVokyc2enS",
             "type": "MOD",
             "slug": {
