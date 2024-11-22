@@ -5,4 +5,4 @@
     - Sturdy ✅
 - Change toms storage recipes to lock behind logistical age
 - Complete large ore veins for coal in swamp most commenly and in all biomes, zinc all biomes, gold in mesa
-- retexture the copper_clips file
+- retexture the copper_clips file ✅
