@@ -21,6 +21,7 @@ resourcepacks/
 /kubejs/probe/
 /defaultconfigs/
 /mods/.index/
+/build/
 
 emi.json
 knownkeys.txt
