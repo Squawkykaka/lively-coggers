@@ -1,0 +1,88 @@
+{
+	"credit": "End_Rage waz here",
+	"parent": "block/block",
+	"render_type": "translucent",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "computercraft:block/turtles/turtle_modem_on",
+		"1": "computercraft:block/wireless_modems/modem_antenna_powered",
+		"particle": "computercraft:block/turtles/turtle_modem_on"
+	},
+	"elements": [
+		{
+			"from": [-1, 5, 4],
+			"to": [2, 12, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [6.5, 1.5, 5, 5], "texture": "#0"},
+				"south": {"uv": [1.5, 1.5, 0, 5], "texture": "#0"},
+				"west": {"uv": [5, 1.5, 1.5, 5], "texture": "#0"},
+				"up": {"uv": [1.5, 0, 5, 1.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [1.5, 6.5, 5, 5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 12, 5.5],
+			"to": [15, 15, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [9, 9.5, 2, 11], "texture": "#0"},
+				"east": {"uv": [11, 9.5, 9, 11], "texture": "#0"},
+				"south": {"uv": [9, 9.5, 2, 11], "texture": "#0"},
+				"west": {"uv": [2, 9.5, 0, 11], "texture": "#0"},
+				"up": {"uv": [9, 9.5, 2, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [14, 9, 5.5],
+			"to": [15, 12, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [2.5, 11, 2, 9.5], "texture": "#0"},
+				"east": {"uv": [11, 11, 9, 9.5], "texture": "#0"},
+				"south": {"uv": [2.5, 11, 2, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "AntennaTop",
+			"from": [0, 20, 9],
+			"to": [1, 21, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [1, 1, 2, 2], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "AntennaZ",
+			"from": [-1, 12, 9],
+			"to": [2, 22, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 10], "texture": "#1"},
+				"south": {"uv": [0, 0, 3, 10], "texture": "#1"}
+			}
+		},
+		{
+			"name": "AntennaX",
+			"from": [0, 12, 8],
+			"to": [1, 22, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 3, 10], "texture": "#1"},
+				"west": {"uv": [0, 0, 3, 10], "texture": "#1"},
+				"down": {"uv": [0, 9, 3, 10], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		2,
+		{
+			"name": "torch",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [3, 4, 5]
+		}
+	]
+}

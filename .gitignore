@@ -22,7 +22,9 @@ resourcepacks/
 /defaultconfigs/
 /mods/.index/
 /build/
+/fancymenu_data/
 
+patchouli_data.json
 emi.json
 knownkeys.txt
 usercache.json

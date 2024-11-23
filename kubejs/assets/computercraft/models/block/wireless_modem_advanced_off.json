@@ -1,0 +1,8 @@
+{
+	"credit": "End_Rage waz here",
+	"parent": "computercraft:block/modem",
+	"textures": {
+		"main": "computercraft:block/wireless_modems/advanced_wireless_modem",
+		"antenna": "computercraft:block/wireless_modems/advanced_modem_antenna"
+	}
+}

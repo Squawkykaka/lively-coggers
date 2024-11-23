@@ -91,6 +91,48 @@
             ]
         },
         {
+            "pakku_id": "C6pzuWtmzK4ybkil",
+            "pakku_links": [
+                "5z0uW4r8lLBYxeWL"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "advanced-peripherals"
+            },
+            "name": {
+                "curseforge": "Advanced Peripherals"
+            },
+            "id": {
+                "curseforge": "431725"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AdvancedPeripherals-1.20.1-0.7.41r.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5830/600/AdvancedPeripherals-1.20.1-0.7.41r.jar",
+                    "id": "5830600",
+                    "parent_id": "431725",
+                    "hashes": {
+                        "sha1": "423559007eb7def74c2c365f08831f0654966961",
+                        "md5": "531533d117c3d98a04b28d8c3f5f5924"
+                    },
+                    "required_dependencies": [
+                        "282001"
+                    ],
+                    "size": 875103,
+                    "date_published": "2024-10-21T12:23:48.133Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "u2Ob76WsDIxeyXnX",
             "type": "MOD",
             "slug": {
@@ -317,6 +359,43 @@
                     ],
                     "size": 343962,
                     "date_published": "2024-06-13T15:17:32.300Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5z0uW4r8lLBYxeWL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cc-tweaked"
+            },
+            "name": {
+                "curseforge": "CC: Tweaked"
+            },
+            "id": {
+                "curseforge": "282001"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cc-tweaked-1.20.1-forge-1.113.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5714/507/cc-tweaked-1.20.1-forge-1.113.1.jar",
+                    "id": "5714507",
+                    "parent_id": "282001",
+                    "hashes": {
+                        "sha1": "ca74a2ad65f149e7465e849b479abec863a82bf1",
+                        "md5": "92b7b114f5ee6067b4f0eff1636817f2"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 3063695,
+                    "date_published": "2024-09-11T19:12:12.627Z"
                 }
             ]
         },
@@ -1144,6 +1223,49 @@
             ]
         },
         {
+            "pakku_id": "YmLksOfoX4rtVAnN",
+            "pakku_links": [
+                "CB6fpjLqA3clf47l",
+                "elbMB03ABgsrRPZY"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fancymenu"
+            },
+            "name": {
+                "curseforge": "FancyMenu"
+            },
+            "id": {
+                "curseforge": "367706"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fancymenu_forge_3.3.2_MC_1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5823/943/fancymenu_forge_3.3.2_MC_1.20.1.jar",
+                    "id": "5823943",
+                    "parent_id": "367706",
+                    "hashes": {
+                        "sha1": "bed01849853308ec9ed23c9a0b493adc93f1ef2e",
+                        "md5": "a362aedda7626827587c445d2e28d3f5"
+                    },
+                    "required_dependencies": [
+                        "410295",
+                        "938643"
+                    ],
+                    "size": 2897882,
+                    "date_published": "2024-10-19T08:11:38.083Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "dhsYX63bPz49zHo8",
             "type": "MOD",
             "slug": {
@@ -1415,6 +1537,44 @@
             ]
         },
         {
+            "pakku_id": "CB6fpjLqA3clf47l",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "konkrete"
+            },
+            "name": {
+                "curseforge": "Konkrete [Forge/NeoForge]"
+            },
+            "id": {
+                "curseforge": "410295"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5028/413/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+                    "id": "5028413",
+                    "parent_id": "410295",
+                    "hashes": {
+                        "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+                        "md5": "d69107c593e361e1b7b96733250bd098"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 625185,
+                    "date_published": "2024-01-13T03:30:23.267Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "AD8qp5w5LSjpy024",
             "pakku_links": [
                 "WTkzOeny80prLGhk"
@@ -1574,6 +1734,46 @@
                     ],
                     "size": 241907,
                     "date_published": "2024-06-06T20:16:06.950Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "elbMB03ABgsrRPZY",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "melody"
+            },
+            "name": {
+                "curseforge": "Melody"
+            },
+            "id": {
+                "curseforge": "938643"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5109/692/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+                    "id": "5109692",
+                    "parent_id": "938643",
+                    "hashes": {
+                        "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+                        "md5": "6b528d368f7fcbf737df28f2457cdec6"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 37178,
+                    "date_published": "2024-02-15T10:46:05.407Z"
                 }
             ]
         },
