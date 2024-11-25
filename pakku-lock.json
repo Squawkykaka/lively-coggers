@@ -2351,6 +2351,43 @@
             ]
         },
         {
+            "pakku_id": "I6h10EbpnUXzTJeP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "spice-of-life-apple-pie-edition"
+            },
+            "name": {
+                "curseforge": "Spice of Life: Apple Pie Edition"
+            },
+            "id": {
+                "curseforge": "704584"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "solapplepie-1.20.1-2.3.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4596/285/solapplepie-1.20.1-2.3.0.jar",
+                    "id": "4596285",
+                    "parent_id": "704584",
+                    "hashes": {
+                        "sha1": "db306008033065fc4ca97f66d38183206a55d458",
+                        "md5": "6d3b3f31a75b147f35756fd385ef4e9f"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 189826,
+                    "date_published": "2023-06-19T05:38:11.530Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "g3vy1CN2v6qhW5me",
             "type": "MOD",
             "slug": {
