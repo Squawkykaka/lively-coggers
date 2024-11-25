@@ -30,5 +30,11 @@
          'sophisticatedbackpacks:backpack',
          'sophisticatedbackpacks:netherite_backpack',
          'create_enchantment_industry:experience_rotor',
+         ['create_central_kitchen:pumpkin_pie_slice', 'create_central_kitchen:cherry_pie_slice',
+         'create_central_kitchen:truffle_pie_slice', 'create_central_kitchen:mulberry_pie_slice',
+         'create_central_kitchen:chocolate_cake_slice', 'create_central_kitchen:honey_cake_slice',
+         'create_central_kitchen:aloe_cake_slice', 'create_central_kitchen:passionfruit_cake_slice',
+         'create_central_kitchen:pumpkin_cake_slice', 'create_central_kitchen:sweet_berry_cake_slice',
+         'create_central_kitchen:creative_tab_icon', 'create_central_kitchen:yucca_cake_slice']
 
    ] 
