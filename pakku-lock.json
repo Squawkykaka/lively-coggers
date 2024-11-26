@@ -1692,6 +1692,52 @@
             ]
         },
         {
+            "pakku_id": "fWSpPeFVZH0XMv5I",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lithosphere"
+            },
+            "name": {
+                "curseforge": "Lithosphere"
+            },
+            "id": {
+                "curseforge": "995122"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lithosphere 1.2 25.06.2024.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5472/833/lithosphere 1.2 25.06.2024.jar",
+                    "id": "5472833",
+                    "parent_id": "995122",
+                    "hashes": {
+                        "sha1": "41f918a6ca007d3b159de75fc0cc2b7172f3c8b3",
+                        "md5": "619c123a516849260c3a312f8a6dd7a2"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 415266,
+                    "date_published": "2024-06-25T11:36:53.830Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "uqkblEcB2fUI8euI",
             "type": "MOD",
             "slug": {
@@ -2250,44 +2296,6 @@
                     "required_dependencies": [
                     ],
                     "size": 189826
-                }
-            ]
-        },
-        {
-            "pakku_id": "g3vy1CN2v6qhW5me",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "tectonic"
-            },
-            "name": {
-                "curseforge": "Tectonic"
-            },
-            "id": {
-                "curseforge": "686836"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "tectonic-forge-1.20.1-2.4.1.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5676/419/tectonic-forge-1.20.1-2.4.1.jar",
-                    "id": "5676419",
-                    "parent_id": "686836",
-                    "hashes": {
-                        "sha1": "55412e1b8ef36cd8eabef83d47f9377e78904f65",
-                        "md5": "e4646116efca671837889dd58cad9844"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 349125
                 }
             ]
         },
