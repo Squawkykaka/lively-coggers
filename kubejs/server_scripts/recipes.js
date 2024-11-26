@@ -3,7 +3,9 @@ ServerEvents.recipes(event => {
     event.remove({input: 'create_enchantment_industry:experience_rotor'})
     event.remove({id: 'sophisticatedbackpacks:gold_backpack'})
     event.remove({id: 'sophisticatedbackpacks:diamond_backpack'})
-    event.remove({id: "toms_storage:ts.inventory_cable"})
+    event.remove({id: "toms_storage:inventory_cable"})
+    event.remove({id: "toms_storage:inventory_cable_connector_filtered"})
+    event.remove({id: "toms_storage:inventory_connector"})
 })
 
 ServerEvents.recipes(event => {
