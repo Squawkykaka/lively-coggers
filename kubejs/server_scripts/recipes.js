@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
     event.remove({id: "toms_storage:inventory_cable"})
     event.remove({id: "toms_storage:inventory_cable_connector_filtered"})
     event.remove({id: "toms_storage:inventory_connector"})
+    event.remove({id: "toms_storage:inventory_cable_connector"})
 })
 
 ServerEvents.recipes(event => {
