@@ -1,10 +1,10 @@
 {
-    "target": "curseforge",
+    "target": "multiplatform",
     "mc_versions": [
         "1.20.1"
     ],
     "loaders": {
-        "forge": "47.3.0"
+        "forge": ""
     },
     "projects": [
         {
@@ -818,16 +818,23 @@
             ]
         },
         {
-            "pakku_id": "5t95i79IPrAz0qhd",
+            "pakku_id": "nmegj7Hj1VwygiPq",
+            "pakku_links": [
+                "lQtQRZ1Mz1rg94FA"
+            ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "create-design-n-decor"
+                "curseforge": "create-design-n-decor",
+                "modrinth": "create-design-n-decor"
             },
             "name": {
-                "curseforge": "Create: Design n' Decor"
+                "curseforge": "Create: Design n' Decor",
+                "modrinth": "Create: Design n' Decor"
             },
             "id": {
-                "curseforge": "923238"
+                "curseforge": "923238",
+                "modrinth": "x49wilh8"
             },
             "redistributable": false,
             "files": [
@@ -850,6 +857,28 @@
                     },
                     "required_dependencies": [
                         "328085"
+                    ],
+                    "size": 2439693
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "design_decor-0.4.0b-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/x49wilh8/versions/JtCSM1oV/design_decor-0.4.0b-1.20.1.jar",
+                    "id": "JtCSM1oV",
+                    "parent_id": "x49wilh8",
+                    "hashes": {
+                        "sha512": "d68effa1a67cde50e4584ee0ef313a3508d5a01a6d65a283f3903fdfcfc716c590f357911e10c63c3a07bb52cb4151c3f3801514df9ec5ae988eab22b1ca1921",
+                        "sha1": "66a40d00191fcfd8d674d200b94427197503c2c8"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
                     ],
                     "size": 2439693
                 }
@@ -1232,16 +1261,20 @@
             ]
         },
         {
-            "pakku_id": "gIiltUvjdD8pkea3",
+            "pakku_id": "N7ZVk69n70orUavm",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
-                "curseforge": "entityculling"
+                "curseforge": "entityculling",
+                "modrinth": "entityculling"
             },
             "name": {
-                "curseforge": "Entity Culling Fabric/Forge"
+                "curseforge": "Entity Culling Fabric/Forge",
+                "modrinth": "Entity Culling"
             },
             "id": {
-                "curseforge": "448233"
+                "curseforge": "448233",
+                "modrinth": "NNAgCjsB"
             },
             "redistributable": false,
             "files": [
@@ -1261,6 +1294,27 @@
                     "hashes": {
                         "sha1": "39b47004022f97a9c75c44cc3a46030ed161d38d",
                         "md5": "ad599f97f17270a1c35e330b3d66bacf"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 72990
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "entityculling-forge-1.7.1-mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/MriILdtF/entityculling-forge-1.7.1-mc1.20.1.jar",
+                    "id": "MriILdtF",
+                    "parent_id": "NNAgCjsB",
+                    "hashes": {
+                        "sha512": "6f6ad9e029600154a7bd916d76eb1eeb90860ca88ce78b1dff26a2b86f386dff3d3282a3746754b12897b52ec540d0ad3874203681050ef4a83b1d5bb86c51d5",
+                        "sha1": "39b47004022f97a9c75c44cc3a46030ed161d38d"
                     },
                     "required_dependencies": [
                     ],
@@ -1692,16 +1746,20 @@
             ]
         },
         {
-            "pakku_id": "fWSpPeFVZH0XMv5I",
+            "pakku_id": "ggGwNvc65zdfXsN1",
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
-                "curseforge": "lithosphere"
+                "curseforge": "lithosphere",
+                "modrinth": "lithosphere"
             },
             "name": {
-                "curseforge": "Lithosphere"
+                "curseforge": "Lithosphere",
+                "modrinth": "Lithosphere"
             },
             "id": {
-                "curseforge": "995122"
+                "curseforge": "995122",
+                "modrinth": "iv9jp2k9"
             },
             "redistributable": false,
             "files": [
@@ -1729,6 +1787,41 @@
                     "hashes": {
                         "sha1": "41f918a6ca007d3b159de75fc0cc2b7172f3c8b3",
                         "md5": "619c123a516849260c3a312f8a6dd7a2"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 415266
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "lithosphere-1.2.jar",
+                    "mc_versions": [
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/iv9jp2k9/versions/7mWcbA0m/lithosphere-1.2.jar",
+                    "id": "7mWcbA0m",
+                    "parent_id": "iv9jp2k9",
+                    "hashes": {
+                        "sha512": "297b7aedca66d6180bab4922a9e9ce0ba9fd74a83ac3e84a2f9958dc45a19eb4e1d5f27b6b5e52ce07547e7d074cbd8b01f4f3636ed7b10f8f248665112f3cc1",
+                        "sha1": "41f918a6ca007d3b159de75fc0cc2b7172f3c8b3"
                     },
                     "required_dependencies": [
                     ],
