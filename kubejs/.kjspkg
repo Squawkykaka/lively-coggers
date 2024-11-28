@@ -1,7 +1,5 @@
 {
-  "installed": {
-    "craft-js-6": []
-  },
+  "installed": {},
   "version": 10,
   "modloader": "forge"
 }
