@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "create:cogwheel"
+      }
+    ],
+    "I": [
+      {
+        "item": "create:iron_sheet"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:industrial_gears"
+  }
+}
