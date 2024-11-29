@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
     ], "create:fluid_pipe", [
       event.recipes.create.cutting(transition, transition),
       event.recipes.create.deploying(transition, [transition, Item.of("create:sturdy_sheet")]),
-      event.recipes.create.filling(transition, [transition, Fluid.of("create_enchantment_industry:flowing_experience", 50)]),
+      event.recipes.create.filling(transition, [transition, Fluid.of("create_enchantment_industry:flowing_experience", 10)]),
       event.recipes.create.pressing(transition, transition)
     ]).transitionalItem(transition).loops(1)
 })
@@ -26,6 +26,20 @@ ServerEvents.recipes(event => {
   })
   event.replaceInput({id: "toms_storage:trim"}, "minecraft:chest", "create:item_vault")
   event.replaceInput({id: "toms_storage:trim"}, "#minecraft:planks", "create:andesite_alloy")
+  event.replaceInput({id: "toms_storage:paint_kit"}, "#minecraft:wool", "create:super_glue")
+  event.replaceInput({id: "toms_storage:inventory_hopper_basic"}, "#minecraft:planks", "#forge:ingots/brass")
+  event.replaceInput({id: "toms_storage:level_emitter"}, "#minecraft:planks", "#forge:ingots/brass")
+  event.recipes.minecraft.crafting_shaped("toms_storage:ts.inventory_proxy", [
+    "SVS",
+    "BIB",
+    "SBS"
+  ], {
+    I: "create:item_vault",
+    S: "create:andesite_alloy",
+    B: "create:iron_sheet",
+    V: "create:chute"
+  })
+  event.shapeless("toms_storage:ts.item_filter", ["create:filter", "toms_storage:ts.inventory_cable"])
 })
 
 ServerEvents.recipes(event => {

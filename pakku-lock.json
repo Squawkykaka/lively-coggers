@@ -1781,6 +1781,81 @@
             ]
         },
         {
+            "pakku_id": "y6Lww6SpAwgWgutU",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kotlin-for-forge",
+                "modrinth": "kotlin-for-forge"
+            },
+            "name": {
+                "curseforge": "Kotlin for Forge",
+                "modrinth": "Kotlin for Forge"
+            },
+            "id": {
+                "curseforge": "351264",
+                "modrinth": "ordsPcFz"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kotlinforforge-4.11.0-all.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5402/61/kotlinforforge-4.11.0-all.jar",
+                    "id": "5402061",
+                    "parent_id": "351264",
+                    "hashes": {
+                        "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5",
+                        "md5": "417caa90d17dc86cf7d24b802c2a5c56"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 7193768,
+                    "date_published": "2024-06-05T23:45:43.380Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kotlinforforge-4.11.0-all.jar",
+                    "mc_versions": [
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/hmeyC41q/kotlinforforge-4.11.0-all.jar",
+                    "id": "hmeyC41q",
+                    "parent_id": "ordsPcFz",
+                    "hashes": {
+                        "sha512": "d72707078f0c4fde78981c638ca976722f22a64ce74bdb489258790fe9886d763a7b1e0dfbc5429ddd3105d8a65d177f06242dfb1457e219e56c70dd3e8cbf2c",
+                        "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 7193768,
+                    "date_published": "2024-06-06T01:10:20.253226Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "AD8qp5w5LSjpy024",
             "pakku_links": [
                 "WTkzOeny80prLGhk"
@@ -2242,6 +2317,77 @@
                         "419699"
                     ],
                     "size": 21667
+                }
+            ]
+        },
+        {
+            "pakku_id": "yYIl6Hs0yLKL9VBQ",
+            "pakku_links": [
+                "y6Lww6SpAwgWgutU",
+                "GH3agEv088pWQZuy"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "observable",
+                "modrinth": "observable"
+            },
+            "name": {
+                "curseforge": "Observable",
+                "modrinth": "Observable"
+            },
+            "id": {
+                "curseforge": "509575",
+                "modrinth": "VYRu7qmG"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "observable-4.4.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5643/37/observable-4.4.2.jar",
+                    "id": "5643037",
+                    "parent_id": "509575",
+                    "hashes": {
+                        "sha1": "c8a0ae25512d0cedef478df411c87e43703ae237",
+                        "md5": "2cfd5a688bfb9574b914e07444071f03"
+                    },
+                    "required_dependencies": [
+                        "351264",
+                        "419699"
+                    ],
+                    "size": 470536,
+                    "date_published": "2024-08-19T06:49:09.183Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "observable-4.4.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/VYRu7qmG/versions/QtSVNyjm/observable-4.4.2.jar",
+                    "id": "QtSVNyjm",
+                    "parent_id": "VYRu7qmG",
+                    "hashes": {
+                        "sha512": "edb20a8f7d27f7a01340cd3bc0fa08124de4ba651ce2872bec5cfcf8d275f03e7b160f38073143f0da61c0916aba2c5628b9a7ca657d10e397aa9ced6898dff7",
+                        "sha1": "c8a0ae25512d0cedef478df411c87e43703ae237"
+                    },
+                    "required_dependencies": [
+                        "ordsPcFz",
+                        "lhGA9TYQ"
+                    ],
+                    "size": 470536,
+                    "date_published": "2024-08-19T06:49:10.624807Z"
                 }
             ]
         },
@@ -2801,6 +2947,89 @@
                     "required_dependencies": [
                     ],
                     "size": 97235
+                }
+            ]
+        },
+        {
+            "pakku_id": "AN9SjzoG0XdC4wLG",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "e4mc",
+                "modrinth": "e4mc"
+            },
+            "name": {
+                "curseforge": "e4mc",
+                "modrinth": "e4mc"
+            },
+            "id": {
+                "curseforge": "849519",
+                "modrinth": "qANg5Jrr"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "e4mc_minecraft-forge-5.2.1.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5745/589/e4mc_minecraft-forge-5.2.1.jar",
+                    "id": "5745589",
+                    "parent_id": "849519",
+                    "hashes": {
+                        "sha1": "a7b2dd11a75b47b87b5f549ea6f1ad821f47edaa",
+                        "md5": "786e99fc5e1a86a5d0fd3bc029b4da8b"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 616856,
+                    "date_published": "2024-09-22T08:56:22.510Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "e4mc_minecraft-forge-5.2.1.jar",
+                    "mc_versions": [
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qANg5Jrr/versions/pI8oz23J/e4mc_minecraft-forge-5.2.1.jar",
+                    "id": "pI8oz23J",
+                    "parent_id": "qANg5Jrr",
+                    "hashes": {
+                        "sha512": "c884e8fc1618978c937dde1fd4b0bb452a790f9a27ee553214b364445f2e66439d861bdd85eadb282e5be4b76063e928df1a650ccb7f657ba7811bf3464d57a6",
+                        "sha1": "a7b2dd11a75b47b87b5f549ea6f1ad821f47edaa"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 616856,
+                    "date_published": "2024-09-22T08:56:21.462079Z"
                 }
             ]
         }
