@@ -35,6 +35,7 @@
          'create_central_kitchen:chocolate_cake_slice', 'create_central_kitchen:honey_cake_slice',
          'create_central_kitchen:aloe_cake_slice', 'create_central_kitchen:passionfruit_cake_slice',
          'create_central_kitchen:pumpkin_cake_slice', 'create_central_kitchen:sweet_berry_cake_slice',
-         'create_central_kitchen:creative_tab_icon', 'create_central_kitchen:yucca_cake_slice']
+         'create_central_kitchen:creative_tab_icon', 'create_central_kitchen:yucca_cake_slice'],
+         'toms_storage:ts.storage_terminal'
 
    ] 

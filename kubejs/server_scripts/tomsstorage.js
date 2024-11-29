@@ -40,6 +40,55 @@ ServerEvents.recipes(event => {
     V: "create:chute"
   })
   event.shapeless("toms_storage:ts.item_filter", ["create:filter", "toms_storage:ts.inventory_cable"])
+  event.recipes.minecraft.crafting_shaped("toms_storage:ts.open_crate", [
+    "WWW",
+    "AIA",
+    "WCW"
+  ], {
+    W: "#minecraft:planks",
+    C: "create:chute",
+    A: "create:andesite_alloy",
+    I: "create:item_vault"
+  })
+  // event.recipes.create.mechanical_crafting("toms_storage:ts.storage_terminal", [
+  //   "STS",
+  //   "SDR",
+  //   " L "
+  // ], {
+  //   S: "create:sturdy_sheet",
+  //   T: "create:railway_casing",
+  //   D: "create:display_board",
+  //   R: "create:redstone_link",
+  //   L: "create:display_link"
+  // })
+  event.recipes.create.mechanical_crafting("toms_storage:ts.crafting_terminal", [
+    " D ",
+    "DTD",
+    "PML",
+    "SZS"
+  ], {
+    D: "diamond",
+    S: "create:sturdy_sheet",
+    M: "minecraft:crafting_table",
+    T: "create:display_board",
+    P: "create:precision_mechanism",
+    L: "create:linked_controller",
+    Z: "create:display_link"
+  })
+  event.recipes.create.mechanical_crafting('toms_storage:ts.adv_wireless_terminal', [
+    'L  ',
+    'CRC',
+    'SIS',
+    'BNB'
+], {
+    C: 'create:railway_casing',
+    R: "toms_storage:ts.crafting_terminal",
+    S: '#forge:plates/obsidian',
+    I: 'toms_storage:ts.inventory_connector',
+    N: '#forge:ingots/netherite',
+    B: '#forge:plates/brass',
+    L: 'create:redstone_link'
+})
 })
 
 ServerEvents.recipes(event => {

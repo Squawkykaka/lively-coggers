@@ -10,24 +10,11 @@ ServerEvents.recipes(event => {
     event.remove({id: "toms_storage:item_filter"})
     event.remove({id: "toms_storage:inventory_proxy"})
     event.remove({id: "toms_storage:open_crate"})
+    event.remove({id: "toms_storage:storage_terminal"})
+    event.remove({id: "toms_storage:crafting_terminal"})
 })
 
 ServerEvents.recipes(event => {
-    event.recipes.create.mechanical_crafting('toms_storage:ts.adv_wireless_terminal', [
-        'L  ',
-        'CRC',
-        'SIS',
-        'BNB'
-    ], {
-        C: 'create:railway_casing',
-        R: 'crafting_table',
-        S: '#forge:plates/obsidian',
-        I: 'toms_storage:ts.inventory_connector',
-        N: '#forge:ingots/netherite',
-        B: '#forge:plates/brass',
-        L: 'create:redstone_link'
-    })
-
     // Copper backpack recipe
     event.shaped("sophisticatedbackpacks:copper_backpack", [
         '#S#',
