@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 
 ServerEvents.recipes(event => {
   event.shapeless("toms_storage:ts.inventory_cable_connector_filtered", ["toms_storage:ts.inventory_cable_connector", "create:filter"])
-  event.shaped("toms_storage:ts.inventory_cable_connector", [
+  event.recipes.create.mechanical_crafting("toms_storage:ts.inventory_cable_connector", [
     "SBIBS",
     " RIR ",
     "  D  "
@@ -24,4 +24,5 @@ ServerEvents.recipes(event => {
     R: "minecraft:redstone",
     D: "minecraft:diamond"
   })
+  event.shaped("toms_storage:ts.inventory_connector")
 })
