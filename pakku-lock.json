@@ -1412,6 +1412,71 @@
             ]
         },
         {
+            "pakku_id": "Jy6vrWBZm1a9POCV",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "exposure",
+                "modrinth": "exposure"
+            },
+            "name": {
+                "curseforge": "Exposure",
+                "modrinth": "Exposure"
+            },
+            "id": {
+                "curseforge": "871755",
+                "modrinth": "hB899VmG"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "exposure-1.20.1-1.7.7-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5751/145/exposure-1.20.1-1.7.7-forge.jar",
+                    "id": "5751145",
+                    "parent_id": "871755",
+                    "hashes": {
+                        "sha1": "eda99c8659c675f2b3a9362129a061c4c11f7b2f",
+                        "md5": "e0f1386d5e62a60f8a577dcaec3ebd1e"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 1326106,
+                    "date_published": "2024-09-24T02:18:53.903Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "exposure-1.20.1-1.7.7-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hB899VmG/versions/3o0pJdF1/exposure-1.20.1-1.7.7-forge.jar",
+                    "id": "3o0pJdF1",
+                    "parent_id": "hB899VmG",
+                    "hashes": {
+                        "sha512": "47845fe77048201fbe25de88be6db6f8f54deb0b6446c40d342d32ed04271c4d505a0feecf11e1165cbbfb544b50e3dcdd94f47d3250f5e5a77f517641314f7d",
+                        "sha1": "eda99c8659c675f2b3a9362129a061c4c11f7b2f"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 1326106,
+                    "date_published": "2024-09-24T02:18:46.852871Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qjE5Fbk4lAfEb87j",
             "type": "MOD",
             "slug": {
