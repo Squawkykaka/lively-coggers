@@ -1011,42 +1011,6 @@
             ]
         },
         {
-            "pakku_id": "PJTZ555nXU5ATobh",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-food"
-            },
-            "name": {
-                "curseforge": "Create: Food"
-            },
-            "id": {
-                "curseforge": "959439"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create-food-1.20.1-1.1.5-forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5927/489/create-food-1.20.1-1.1.5-forge.jar",
-                    "id": "5927489",
-                    "parent_id": "959439",
-                    "hashes": {
-                        "sha1": "749357f552325ea477d0acc44dca385cdeabf310",
-                        "md5": "03d30945676a316faff113f5cd0d9e0b"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 6082415
-                }
-            ]
-        },
-        {
             "pakku_id": "j9XNJkbXbpNUX6Pu",
             "pakku_links": [
                 "lQtQRZ1Mz1rg94FA"
