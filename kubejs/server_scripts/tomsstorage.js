@@ -24,17 +24,7 @@ ServerEvents.recipes(event => {
     R: "minecraft:redstone",
     D: "minecraft:diamond"
   })
-})
-
-ServerEvents.recipes(event => {
-  const transition = 'kubejs:incomplete_inventory_connector'
-  event.recipes.create.sequenced_assembly([
-    Item.of("toms_storage:ts.inventory_connector", 1)
-  ], "create:brass_block", [
-    event.recipes.create.deploying(transition, [transition, Item.of("create:sturdy_sheet")]),
-    event.recipes.create.cutting(transition, transition),
-    event.recipes.create.filling(transition, [transition, Fluid.of("create_enchantment_industry:flowing_experience", 50)]),
-    event.recipes.create.deploying(transition, [transition, Item.of("create:chute")]),
-    event.recipes.create.pressing(transition, transition)
-  ]).transitionalItem(transition).loops(1)
+  event.replaceInput({id: "toms_storage:trim"}, "minecraft:chest", "create:item_vault")
+  event.replaceInput({id: "toms_storage:trim"}, "#minecraft:planks", "create:andesite_alloy")
+  event.shapeless("toms_storage:ts.inventory_connector", ["create:brass_casing", "create:chute"])
 })

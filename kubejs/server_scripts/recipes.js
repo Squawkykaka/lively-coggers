@@ -25,12 +25,6 @@ ServerEvents.recipes(event => {
         L: 'create:redstone_link'
     })
 
-    event.recipes.minecraft.crafting_shapeless('toms_storage:ts.inventory_connector', [
-        'create:brass_casing',
-        'create:chute',
-        '#forge:plates/obsidian'
-    ])
-
     // Copper backpack recipe
     event.shaped("sophisticatedbackpacks:copper_backpack", [
         '#S#',
