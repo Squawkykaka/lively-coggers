@@ -8,78 +8,6 @@
     },
     "projects": [
         {
-            "pakku_id": "r5RNPfKDsN4vI6IV",
-            "pakku_links": [
-                "H5eLhdEoahWiCx64"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "accessories",
-                "modrinth": "accessories"
-            },
-            "name": {
-                "curseforge": "Accessories",
-                "modrinth": "Accessories"
-            },
-            "id": {
-                "curseforge": "938917",
-                "modrinth": "jtmvUHXj"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "accessories-neoforge-1.0.0-beta.42+1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5869/425/accessories-neoforge-1.0.0-beta.42+1.20.1.jar",
-                    "id": "5869425",
-                    "parent_id": "938917",
-                    "hashes": {
-                        "sha1": "f0d2d71cac8d74f21ea4fb196114bd970c9b7f1d",
-                        "md5": "162229f896761e4e4cb1a765b9aae143"
-                    },
-                    "required_dependencies": [
-                        "348521",
-                        "306612",
-                        "532610"
-                    ],
-                    "size": 1078545,
-                    "date_published": "2024-11-02T20:54:23.193Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "accessories-neoforge-1.0.0-beta.42+1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/1MWeROAl/accessories-neoforge-1.0.0-beta.42+1.20.1.jar",
-                    "id": "1MWeROAl",
-                    "parent_id": "jtmvUHXj",
-                    "hashes": {
-                        "sha512": "5f2dcb7aa2f0e0e23afab5ba6cca1e69c3bd4ad65961e4d4df6be1faaff7ba4f02dafe1f5d3b327c32748679ba0c0f7363e40cc2903e407377e176126cb75f30",
-                        "sha1": "f0d2d71cac8d74f21ea4fb196114bd970c9b7f1d"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g"
-                    ],
-                    "size": 1078545,
-                    "date_published": "2024-11-02T20:53:27.201558Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "OpX80jhL29jNvHB0",
             "type": "MOD",
             "slug": {
@@ -532,72 +460,6 @@
                     "required_dependencies": [
                     ],
                     "size": 341451
-                }
-            ]
-        },
-        {
-            "pakku_id": "H5eLhdEoahWiCx64",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "cloth-config",
-                "modrinth": "cloth-config"
-            },
-            "name": {
-                "curseforge": "Cloth Config API (Fabric/Forge/NeoForge)",
-                "modrinth": "Cloth Config API"
-            },
-            "id": {
-                "curseforge": "348521",
-                "modrinth": "9s6osm5g"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "cloth-config-11.1.136-forge.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar",
-                    "id": "5729105",
-                    "parent_id": "348521",
-                    "hashes": {
-                        "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
-                        "md5": "ca5de5acbcb4a30c010aa6953bd7ef53"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 1181413,
-                    "date_published": "2024-09-16T17:13:48.940Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "cloth-config-11.1.136-forge.jar",
-                    "mc_versions": [
-                        "1.20",
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
-                    "id": "t8TXrZvZ",
-                    "parent_id": "9s6osm5g",
-                    "hashes": {
-                        "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef",
-                        "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 1181413,
-                    "date_published": "2024-09-16T17:13:50.725690Z"
                 }
             ]
         },
@@ -1156,39 +1018,69 @@
             ]
         },
         {
-            "pakku_id": "QPoKR50OO6jlxmjR",
+            "pakku_id": "sA9Vu9PxHwvZqbMI",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "accessories-cc-layer"
+                "curseforge": "curios",
+                "modrinth": "curios"
             },
             "name": {
-                "curseforge": "Curios Compat Layer for Accessories"
+                "curseforge": "Curios API (Forge/NeoForge)",
+                "modrinth": "Curios API"
             },
             "id": {
-                "curseforge": "1005683"
+                "curseforge": "309927",
+                "modrinth": "vvuO3ImH"
             },
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "accessories_cclayer-7.4.0-beta.18+1.20.1.jar",
+                    "file_name": "curios-forge-5.11.0+1.20.1.jar",
                     "mc_versions": [
-                        "1.20.1"
+                        "1.20.1",
+                        "1.20"
                     ],
                     "loaders": [
                         "neoforge",
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5786/436/accessories_cclayer-7.4.0-beta.18+1.20.1.jar",
-                    "id": "5786436",
-                    "parent_id": "1005683",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5843/594/curios-forge-5.11.0+1.20.1.jar",
+                    "id": "5843594",
+                    "parent_id": "309927",
                     "hashes": {
-                        "sha1": "088227dc6195733eec20445e61b7a25fdaf263dd",
-                        "md5": "10a31940cc4e1171e0df5950fcf1b841"
+                        "sha1": "f81eead8c73b88463a3beb335be008fc388c82fa",
+                        "md5": "9d752b17b0e6d1e9cfe3ea3a230aaba1"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 388707
+                    "size": 389988,
+                    "date_published": "2024-10-25T02:58:33.520Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "curios-forge-5.11.0+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/QBtodtmR/curios-forge-5.11.0+1.20.1.jar",
+                    "id": "QBtodtmR",
+                    "parent_id": "vvuO3ImH",
+                    "hashes": {
+                        "sha512": "f958e9496ea4b3538a287b67c34b51933fac9989d6dea7aa81b4a2b53ae555d4269dd01ca140c95cc470a0bb71ab5ed51e8a522519b1498cd7ccccc74a6ce94b",
+                        "sha1": "f81eead8c73b88463a3beb335be008fc388c82fa"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 389988,
+                    "date_published": "2024-10-25T02:58:31.106667Z"
                 }
             ]
         },
