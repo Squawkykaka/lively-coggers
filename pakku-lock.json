@@ -602,6 +602,73 @@
             ]
         },
         {
+            "pakku_id": "48hwXVvT1tMOmMyc",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "colorful-hearts",
+                "modrinth": "colorful-hearts"
+            },
+            "name": {
+                "curseforge": "Colorful Hearts",
+                "modrinth": "Colorful Hearts"
+            },
+            "id": {
+                "curseforge": "854213",
+                "modrinth": "wQfMUdZT"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "colorfulhearts-forge-1.20.1-4.3.16.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5724/977/colorfulhearts-forge-1.20.1-4.3.16.jar",
+                    "id": "5724977",
+                    "parent_id": "854213",
+                    "hashes": {
+                        "sha1": "840036c824edfe6e155f4488337e5f5aec26a17f",
+                        "md5": "9e9be8a8c82350e43dfdd5d76101be50"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 122868,
+                    "date_published": "2024-09-15T11:06:45.690Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "colorfulhearts-forge-1.20.1-4.3.16.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/wQfMUdZT/versions/LkhTyd10/colorfulhearts-forge-1.20.1-4.3.16.jar",
+                    "id": "LkhTyd10",
+                    "parent_id": "wQfMUdZT",
+                    "hashes": {
+                        "sha512": "4f0c9400669b36b6504b495856d8b3f3ae6885ef41ba596f41a94ef7f39e88e976e91e2d49312ce9b155abdbbaf19acaf9ac0530e3557486b969dab79438734c",
+                        "sha1": "840036c824edfe6e155f4488337e5f5aec26a17f"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 122868,
+                    "date_published": "2024-09-15T11:07:29.063744Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "775JRmxf3AtLgJzP",
             "type": "MOD",
             "slug": {
