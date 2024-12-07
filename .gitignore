@@ -23,6 +23,7 @@ resourcepacks/
 /mods/.index/
 /build/
 /fancymenu_data/
+/.bobby/
 
 patchouli_data.json
 emi.json
@@ -32,3 +33,5 @@ options.txt
 usernamecache.json
 rhino.local.properties
 observable_announce
+servers.dat
+servers.dat_old
