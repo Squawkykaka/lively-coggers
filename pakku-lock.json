@@ -1040,6 +1040,77 @@
             ]
         },
         {
+            "pakku_id": "cdLIj0s0te4vKTuz",
+            "pakku_links": [
+                "lQtQRZ1Mz1rg94FA"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "missions",
+                "modrinth": "missions"
+            },
+            "name": {
+                "curseforge": "Create: Missions",
+                "modrinth": "Create: Missions"
+            },
+            "id": {
+                "curseforge": "911382",
+                "modrinth": "KN33kvHF"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "missions-forge-0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5896/738/missions-forge-0.4.jar",
+                    "id": "5896738",
+                    "parent_id": "911382",
+                    "hashes": {
+                        "sha1": "451fbb8bf7d778e275eb8a82e90a03ec524a29c3",
+                        "md5": "5475e867d2b49c63541b5e7e5bf699b1"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "624165"
+                    ],
+                    "size": 549972,
+                    "date_published": "2024-11-12T12:30:57.557Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "missions-forge-0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/KN33kvHF/versions/I9Q6VQAx/missions-forge-0.4.jar",
+                    "id": "I9Q6VQAx",
+                    "parent_id": "KN33kvHF",
+                    "hashes": {
+                        "sha512": "523cf000057f6f3e32f838285ca7cf85c1b6c594d50f1ee332ac5e8b93a1589576226fc2b408d7bf5906f5ff27594584a729bd5e4c58d8d7f07af2b06e7ac32a",
+                        "sha1": "451fbb8bf7d778e275eb8a82e90a03ec524a29c3"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 549972,
+                    "date_published": "2024-11-12T12:30:23.698922Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "EH81tmxBmpvpkxO0",
             "pakku_links": [
                 "lQtQRZ1Mz1rg94FA"
