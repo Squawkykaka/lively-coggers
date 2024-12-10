@@ -614,6 +614,7 @@
                 "TIrMRDB4HTDK171M"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "controlling"
             },
@@ -1328,6 +1329,7 @@
         {
             "pakku_id": "U55nCqnm4hu32ziJ",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "dynamic-fps"
             },
@@ -1534,6 +1536,7 @@
                         "neoforge",
                         "forge"
                     ],
+                    "side": "CLIENT",
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/5855/251/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
                     "id": "5855251",
@@ -2940,6 +2943,7 @@
         {
             "pakku_id": "TIrMRDB4HTDK171M",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "searchables"
             },
@@ -3199,6 +3203,7 @@
         {
             "pakku_id": "78x1M2QfMjzGIlMp",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "yeetusexperimentus"
             },
@@ -3235,6 +3240,7 @@
         {
             "pakku_id": "1DA5fWAEioRDhBwX",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "zume"
             },
@@ -3283,7 +3289,7 @@
         {
             "pakku_id": "AN9SjzoG0XdC4wLG",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "e4mc",
                 "modrinth": "e4mc"
