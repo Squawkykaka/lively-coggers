@@ -49,17 +49,7 @@ ServerEvents.recipes(event => {
     A: "create:andesite_alloy",
     I: "create:item_vault"
   })
-  // event.recipes.create.mechanical_crafting("toms_storage:ts.storage_terminal", [
-  //   "STS",
-  //   "SDR",
-  //   " L "
-  // ], {
-  //   S: "create:sturdy_sheet",
-  //   T: "create:railway_casing",
-  //   D: "create:display_board",
-  //   R: "create:redstone_link",
-  //   L: "create:display_link"
-  // })
+  
   event.recipes.create.mechanical_crafting("toms_storage:ts.crafting_terminal", [
     " D ",
     "DTD",
