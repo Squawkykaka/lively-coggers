@@ -16,15 +16,9 @@ jobs:
                   wget https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar
             - name: Export modpack
               run: java -jar pakku.jar export
-            - name: 'Upload Curseforge Build Artifact'
+            - name: 'Upload Builds Artifact'
               uses: actions/upload-artifact@v4
               with:
-                name: curseforge-artifact
-                path: ./build/curseforge/
-                retention-days: 5
-            - name: 'Upload Server Build Artifact'
-              uses: actions/upload-artifact@v4
-              with:
-                name: server-artifact
-                path: ./build/serverpack/
+                name: modpack-files
+                path: ./build/
                 retention-days: 5
