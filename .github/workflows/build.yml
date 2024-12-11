@@ -1,0 +1,8 @@
+name: Build minecraft modpack
+on: [push]
+jobs:
+    Build-Minecraft-Modpack:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
