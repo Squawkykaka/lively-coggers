@@ -19,12 +19,12 @@ jobs:
             - name: 'Upload Curseforge Build Artifact'
               uses: actions/upload-artifact@v4
               with:
-                name: curseforge-artifact
+                name: curseforge-artifact.zip
                 path: ./build/curseforge/Lively Coggers-0.0.2.zip
                 retention-days: 5
             - name: 'Upload Server Build Artifact'
               uses: actions/upload-artifact@v4
               with:
-                name: server-artifact
+                name: server-artifact.zip
                 path: ./build/serverpack/Lively Coggers-0.0.2.zip
                 retention-days: 5
