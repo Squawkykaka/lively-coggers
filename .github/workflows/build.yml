@@ -13,11 +13,9 @@ jobs:
                   java-version: '21'
             - name: Setup pakku
               run: |
-                  curl -O https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar \
-                    && echo "java -jar pakku.jar" > pakku \
-                    && chmod +x pakku
+                  wget https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar
             - name: Export modpack
-              run: ./pakku export
+              run: java -jar pakku.jar export
             - name: 'Upload Curseforge Build Artifact'
               uses: actions/upload-artifact@v4
               with:
