@@ -6,3 +6,27 @@ jobs:
         steps:
             - name: Check out repository code
               uses: actions/checkout@v4
+            - name: Set up JDK 21
+              uses: actions/setup-java@v2
+              with:
+                  distribution: 'adopt'
+                  java-version: '21'
+            - name: Setup pakku
+              run: |
+                  curl -O https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar \
+                    && echo "java -jar pakku.jar" > pakku \
+                    && chmod +x pakku
+            - name: Export modpack
+              run: ./pakku export
+            - name: 'Upload Curseforge Build Artifact'
+              uses: actions/upload-artifact@v4
+              with:
+                name: curseforge-artifact
+                path: ./build/curseforge/Lively Coggers-0.0.2.zip
+                retention-days: 5
+            - name: 'Upload Server Build Artifact'
+              uses: actions/upload-artifact@v4
+              with:
+                name: server-artifact
+                path: ./build/serverpack/Lively Coggers-0.0.2.zip
+                retention-days: 5
