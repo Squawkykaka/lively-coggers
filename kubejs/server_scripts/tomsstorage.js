@@ -6,7 +6,6 @@ ServerEvents.recipes(event => {
     ], "create:fluid_pipe", [
       event.recipes.create.cutting(transition, transition),
       event.recipes.create.deploying(transition, [transition, Item.of("create:sturdy_sheet")]),
-      event.recipes.create.filling(transition, [transition, Fluid.of("create_enchantment_industry:flowing_experience", 10)]),
       event.recipes.create.pressing(transition, transition)
     ]).transitionalItem(transition).loops(1)
 })
@@ -50,17 +49,7 @@ ServerEvents.recipes(event => {
     A: "create:andesite_alloy",
     I: "create:item_vault"
   })
-  // event.recipes.create.mechanical_crafting("toms_storage:ts.storage_terminal", [
-  //   "STS",
-  //   "SDR",
-  //   " L "
-  // ], {
-  //   S: "create:sturdy_sheet",
-  //   T: "create:railway_casing",
-  //   D: "create:display_board",
-  //   R: "create:redstone_link",
-  //   L: "create:display_link"
-  // })
+  
   event.recipes.create.mechanical_crafting("toms_storage:ts.crafting_terminal", [
     " D ",
     "DTD",
