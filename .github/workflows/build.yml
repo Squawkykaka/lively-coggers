@@ -31,3 +31,9 @@ jobs:
                 name: server-artifact
                 path: ./build/serverpack/
                 retention-days: 5
+            - name: 'Upload Modrinth Build Artifact'
+              uses: actions/upload-artifact@v4
+              with:
+                name: modrinth-artifact
+                path: ./build/serverpack/
+                retention-days: 5
