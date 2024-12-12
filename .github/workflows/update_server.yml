@@ -1,0 +1,66 @@
+name: Build minecraft modpack
+on: 
+    workflow_dispatch:
+
+jobs:
+    Build-Minecraft-Modpack:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+            - name: Set up JDK 21
+              uses: actions/setup-java@v2
+              with:
+                  distribution: 'adopt'
+                  java-version: '21'
+            - name: Setup pakku
+              run: |
+                  wget https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar
+            - name: Export modpack
+              run: java -jar pakku.jar export
+            - name: 'Upload Curseforge Build Artifact'
+              uses: actions/upload-artifact@v4
+              with:
+                name: curseforge-artifact
+                path: ./build/curseforge/
+                retention-days: 5
+            - name: 'Upload Server Build Artifact'
+              uses: actions/upload-artifact@v4
+              with:
+                name: server-artifact
+                path: ./build/serverpack/
+                retention-days: 5
+            - name: 'Upload Modrinth Build Artifact'
+              uses: actions/upload-artifact@v4
+              with:
+                name: modrinth-artifact
+                path: ./build/modrinth/
+                retention-days: 5
+    Sftp-Push:
+        runs-on: ubuntu-latest
+        needs: Build-Minecraft-Modpack
+        steps:
+            - name: Download a single artifact
+              uses: actions/download-artifact@v4
+              with:
+                name: server-artifact
+            - name: Unzip artifact
+              run: unzip -q server-artifact.zip \
+                    && unzip -q ./* -d ./modpack
+            - name: Deploy To Pterodactyl
+              uses: Itzbenz/deploy-to-pterodactyl@v0.1
+              with:
+                # The source file/folder to deploy
+                source: ./modpack/
+                # The destination folder to deploy to
+                target: ./test
+                # The API endpoint of the Pterodactyl server e.g. "https://pterodactyl.file.properties/
+                panel-url: https://squawkypanel.dev/
+                # The ID of the Pterodactyl server
+                server-id: ${{ secrets.PTERODACTYL_SERVER_ID }}
+                # The API key of the Pterodactyl server
+                api-key: ${{ secrets.PTERODACTYL_API_KEY }}
+                # Whether to restart the server after deploying the plugin
+                restart: true
+                # Force kill the server if it is running for faster restart
+                force-restart: false
