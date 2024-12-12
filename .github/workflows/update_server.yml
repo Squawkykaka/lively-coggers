@@ -45,22 +45,16 @@ jobs:
               with:
                 name: server-artifact
             - name: Unzip artifact
-              run: unzip -q server-artifact.zip \
-                    && unzip -q ./* -d ./modpack
-            - name: Deploy To Pterodactyl
-              uses: Itzbenz/deploy-to-pterodactyl@v0.1
+              run: unzip -q server-artifact.zip -d ./modpack
+
+            - name: Upload files to Pterodactyl
+              uses: rexlManu/pterodactyl-upload-action@v2.4
               with:
-                # The source file/folder to deploy
-                source: ./modpack/
-                # The destination folder to deploy to
-                target: ./test
-                # The API endpoint of the Pterodactyl server e.g. "https://pterodactyl.file.properties/
-                panel-url: https://squawkypanel.dev/api/client
-                # The ID of the Pterodactyl server
-                server-id: ${{ secrets.PTERODACTYL_SERVER_ID }}
-                # The API key of the Pterodactyl server
+                panel-host: ${{ secrets.PTERODACTYL_SERVER }}
                 api-key: ${{ secrets.PTERODACTYL_API_KEY }}
-                # Whether to restart the server after deploying the plugin
-                restart: true
-                # Force kill the server if it is running for faster restart
-                force-restart: false
+                server-id: ${{ secrets.PTERODACTYL_SERVER_ID }}
+                source: ./modpack/*
+                target: "./test"
+                decompress-target: true
+
+            
