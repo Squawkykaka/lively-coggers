@@ -1,4 +1,4 @@
-name: Build minecraft modpack
+name: Upload modpack to pterodactyl
 on: 
     workflow_dispatch:
 

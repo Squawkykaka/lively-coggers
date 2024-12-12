@@ -1,8 +1,7 @@
 name: Build minecraft modpack
 on: 
-    pull_request:
-        branches:
-          - main
+    workflow_dispatch:
+
 jobs:
     Build-Minecraft-Modpack:
         runs-on: ubuntu-latest
