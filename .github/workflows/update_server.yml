@@ -18,43 +18,12 @@ jobs:
                   wget https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar
             - name: Export modpack
               run: java -jar pakku.jar export
-            - name: 'Upload Curseforge Build Artifact'
-              uses: actions/upload-artifact@v4
-              with:
-                name: curseforge-artifact
-                path: ./build/curseforge/
-                retention-days: 5
-            - name: 'Upload Server Build Artifact'
-              uses: actions/upload-artifact@v4
-              with:
-                name: server-artifact
-                path: ./build/serverpack/
-                retention-days: 5
-            - name: 'Upload Modrinth Build Artifact'
-              uses: actions/upload-artifact@v4
-              with:
-                name: modrinth-artifact
-                path: ./build/modrinth/
-                retention-days: 5
-    Sftp-Push:
-        runs-on: ubuntu-latest
-        needs: Build-Minecraft-Modpack
-        steps:
-            - name: Download a single artifact
-              uses: actions/download-artifact@v4
-              with:
-                name: server-artifact
-            - name: Unzip artifact
-              run: unzip -q server-artifact.zip -d ./modpack
-
             - name: Upload files to Pterodactyl
               uses: rexlManu/pterodactyl-upload-action@v2.4
               with:
                 panel-host: ${{ secrets.PTERODACTYL_SERVER }}
                 api-key: ${{ secrets.PTERODACTYL_API_KEY }}
                 server-id: ${{ secrets.PTERODACTYL_SERVER_ID }}
-                source: ./modpack/*
-                target: "./test"
+                source: ./build/serverpack/*
+                target: "./test/"
                 decompress-target: true
-
-            
