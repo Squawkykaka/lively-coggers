@@ -55,7 +55,7 @@ jobs:
                 # The destination folder to deploy to
                 target: ./test
                 # The API endpoint of the Pterodactyl server e.g. "https://pterodactyl.file.properties/
-                panel-url: https://squawkypanel.dev/
+                panel-url: https://squawkypanel.dev/api/client
                 # The ID of the Pterodactyl server
                 server-id: ${{ secrets.PTERODACTYL_SERVER_ID }}
                 # The API key of the Pterodactyl server
