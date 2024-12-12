@@ -3313,6 +3313,77 @@
             ]
         },
         {
+            "pakku_id": "LgoekM0cmu68THTI",
+            "pakku_links": [
+                "ogXU4VAy8CTu8Omh"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "liquid-burner",
+                "modrinth": "liquid-burner"
+            },
+            "name": {
+                "curseforge": "Liquid Burner",
+                "modrinth": "Liquid Burner"
+            },
+            "id": {
+                "curseforge": "711034",
+                "modrinth": "kDFtUgr8"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "liquidburner-1.20.1-0.5.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4833/41/liquidburner-1.20.1-0.5.jar",
+                    "id": "4833041",
+                    "parent_id": "711034",
+                    "hashes": {
+                        "sha1": "78ebe8b68bd7c97e6634f273e1376a0ac277b1ec",
+                        "md5": "e9180e37118b23635945f8f0df700d09"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 19767,
+                    "date_published": "2023-11-01T20:38:45.527Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "liquidburner-1.20.1-0.5.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/kDFtUgr8/versions/qd5ehKK8/liquidburner-1.20.1-0.5.jar",
+                    "id": "qd5ehKK8",
+                    "parent_id": "kDFtUgr8",
+                    "hashes": {
+                        "sha512": "4c8412f410e3636f70455d86f1056f9f5deba27cf85d592309be00438625427ee0e24768d59d20ae462506381ab7d5874dcf3c48bcfb72e4267cbf7bf6d071e8",
+                        "sha1": "78ebe8b68bd7c97e6634f273e1376a0ac277b1ec"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 19767,
+                    "date_published": "2023-11-08T20:21:03.440519Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ggGwNvc65zdfXsN1",
             "type": "MOD",
             "side": "SERVER",
