@@ -777,6 +777,72 @@
             ]
         },
         {
+            "pakku_id": "Z9nkPFO3puyHrPC5",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "cloth-config",
+                "modrinth": "cloth-config"
+            },
+            "name": {
+                "curseforge": "Cloth Config API (Fabric/Forge/NeoForge)",
+                "modrinth": "Cloth Config API"
+            },
+            "id": {
+                "curseforge": "348521",
+                "modrinth": "9s6osm5g"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cloth-config-11.1.136-forge.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar",
+                    "id": "5729105",
+                    "parent_id": "348521",
+                    "hashes": {
+                        "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+                        "md5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 1181413,
+                    "date_published": "2024-09-16T17:13:48.940Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "cloth-config-11.1.136-forge.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+                    "id": "t8TXrZvZ",
+                    "parent_id": "9s6osm5g",
+                    "hashes": {
+                        "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef",
+                        "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 1181413,
+                    "date_published": "2024-09-16T17:13:50.725690Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "48hwXVvT1tMOmMyc",
             "type": "MOD",
             "side": "CLIENT",
@@ -4452,6 +4518,77 @@
                     ],
                     "size": 77732,
                     "date_published": "2024-04-23T06:56:56.381361Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "SrfoRYlBkb0OfWl8",
+            "pakku_links": [
+                "IDwrHp3m5eAg3SBb",
+                "Z9nkPFO3puyHrPC5"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "simple-discord-rich-presence",
+                "modrinth": "srdp"
+            },
+            "name": {
+                "curseforge": "Simple Discord Rich Presence (Forge /  Fabric)",
+                "modrinth": "Simple Rich Discord Presence"
+            },
+            "id": {
+                "curseforge": "334853",
+                "modrinth": "SCAopByd"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4964/550/SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+                    "id": "4964550",
+                    "parent_id": "334853",
+                    "hashes": {
+                        "sha1": "f56b1d7e02c25e2e0c91ef9b51ed10ceb492a0d4",
+                        "md5": "8ba6c024a9affa595738a26205ddf52f"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "348521"
+                    ],
+                    "size": 1198997,
+                    "date_published": "2023-12-17T22:09:26.180Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SCAopByd/versions/jnmqJmSh/SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+                    "id": "jnmqJmSh",
+                    "parent_id": "SCAopByd",
+                    "hashes": {
+                        "sha512": "669ae32b3cca8478fcee68fcb13aeb71af4eeb464ba62e78ccae01921eb624580f6b3ba61ed16595acc9fbceb562ba85541f3c58a66580765bd0615d610f15e5",
+                        "sha1": "f56b1d7e02c25e2e0c91ef9b51ed10ceb492a0d4"
+                    },
+                    "required_dependencies": [
+                        "lhGA9TYQ",
+                        "9s6osm5g"
+                    ],
+                    "size": 1198997,
+                    "date_published": "2023-12-17T22:09:26.524462Z"
                 }
             ]
         },
