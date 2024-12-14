@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
   ], "create:brass_block", [
     event.recipes.create.deploying(transition, [transition, Item.of("create:sturdy_sheet")]),
     event.recipes.create.deploying(transition, [transition, Item.of("create:sturdy_sheet")]),
-    event.recipes.create.filling(transition, [transition, Fluid.of("minecraft:lava", 50)]),
+    event.recipes.create.filling(transition, [transition, Fluid.of("minecraft:lava", 250)]),
     event.recipes.create.pressing(transition, transition)
-  ]).transitionalItem(transition).loops(3)
+  ]).transitionalItem(transition).loops(1)
 })
