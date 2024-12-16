@@ -2233,6 +2233,71 @@
             ]
         },
         {
+            "pakku_id": "ZatZkIilSebc0ygZ",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "embeddium",
+                "modrinth": "embeddium"
+            },
+            "name": {
+                "curseforge": "Embeddium",
+                "modrinth": "Embeddium"
+            },
+            "id": {
+                "curseforge": "908741",
+                "modrinth": "sk9rgfiA"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "embeddium-0.3.31+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5681/725/embeddium-0.3.31+mc1.20.1.jar",
+                    "id": "5681725",
+                    "parent_id": "908741",
+                    "hashes": {
+                        "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+                        "md5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 1320675,
+                    "date_published": "2024-08-31T23:11:49.240Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "embeddium-0.3.31+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31+mc1.20.1.jar",
+                    "id": "UTbfe5d1",
+                    "parent_id": "sk9rgfiA",
+                    "hashes": {
+                        "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9",
+                        "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 1320675,
+                    "date_published": "2024-08-31T23:11:49.184634Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "NsgapGGntAWEFwFk",
             "pakku_links": [
                 "P3QLdaiAMtT1POcY"
