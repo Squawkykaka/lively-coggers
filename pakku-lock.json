@@ -4339,44 +4339,25 @@
             ]
         },
         {
-            "pakku_id": "IZOC0di7sPTTox4s",
+            "pakku_id": "rtMEtjFgiFHWJMJg",
+            "pakku_links": [
+                "9EKKxCBdrUYPYFJo"
+            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                "curseforge": "probejs",
-                "modrinth": "probejs"
+                "modrinth": "probejs",
+                "curseforge": "probejs"
             },
             "name": {
-                "curseforge": "ProbeJS",
-                "modrinth": "ProbeJS"
+                "modrinth": "ProbeJS",
+                "curseforge": "ProbeJS"
             },
             "id": {
-                "curseforge": "585406",
-                "modrinth": "JJNYRb4B"
+                "modrinth": "JJNYRb4B",
+                "curseforge": "585406"
             },
             "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "probejs-6.0.0-forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5099/97/probejs-6.0.0-forge.jar",
-                    "id": "5099097",
-                    "parent_id": "585406",
-                    "hashes": {
-                        "sha1": "39c6aa4497f49ef462153e14cff4f0b069fde211",
-                        "md5": "0963c977574b04500ac5d36560120f20"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 988280,
-                    "date_published": "2024-02-11T12:50:34.290Z"
-                },
                 {
                     "type": "modrinth",
                     "file_name": "probejs-6.0.0-forge.jar",
@@ -4400,6 +4381,28 @@
                     ],
                     "size": 988280,
                     "date_published": "2024-02-11T12:37:01.205638Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "probejs-6.0.0-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5099/97/probejs-6.0.0-forge.jar",
+                    "id": "5099097",
+                    "parent_id": "585406",
+                    "hashes": {
+                        "sha1": "39c6aa4497f49ef462153e14cff4f0b069fde211",
+                        "md5": "0963c977574b04500ac5d36560120f20"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 988280,
+                    "date_published": "2024-02-11T12:50:34.290Z"
                 }
             ]
         },
