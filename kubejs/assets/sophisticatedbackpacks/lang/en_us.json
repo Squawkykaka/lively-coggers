@@ -8,5 +8,7 @@
     "item.sophisticatedbackpacks.diamond_backpack": "Sturdy Backpack",
 
     "item.immersive_aircraft.nether_engine": "Combustion Engine",
-    "item.immersive_aircraft.eco_engine": "Steam Engine"
+    "item.immersive_aircraft.eco_engine": "Steam Engine",
+
+    "item.sophisticatedbackpacks.advanced_refill_upgrade": "Refill Upgrade"
 }

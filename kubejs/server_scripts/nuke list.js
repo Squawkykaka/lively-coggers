@@ -11,7 +11,7 @@
          'sophisticatedbackpacks:advanced_pump_upgrade', 'sophisticatedbackpacks:pump_upgrade', 
          'sophisticatedbackpacks:tank_upgrade', 'sophisticatedbackpacks:advanced_tool_swapper_upgrade', 
          'sophisticatedbackpacks:stack_upgrade_tier_4', 'sophisticatedbackpacks:stack_upgrade_tier_3', 
-         'sophisticatedbackpacks:stack_upgrade_tier_2', 'sophisticatedbackpacks:stack_upgrade_tier_1', 
+         'sophisticatedbackpacks:stack_upgrade_tier_2', 
          'sophisticatedbackpacks:stack_upgrade_starter_tier', 'sophisticatedbackpacks:stonecutter_upgrade', 
          'sophisticatedbackpacks:crafting_upgrade', 'sophisticatedbackpacks:auto_blasting_upgrade', 
          'sophisticatedbackpacks:blasting_upgrade', 'sophisticatedbackpacks:auto_smoking_upgrade', 

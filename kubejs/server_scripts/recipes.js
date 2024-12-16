@@ -142,3 +142,51 @@ ServerEvents.recipes(event => {
     });
 
 })
+
+ServerEvents.recipes(event => {
+  event.shaped("sophisticatedbackpacks:tool_swapper_upgrade", [
+    'BPB',
+    'SLA',
+    'BHB'
+  ], {
+    B: "create:brass_ingot",
+    P: "minecraft:iron_pickaxe",
+    S: "minecraft:iron_sword",
+    A: "minecraft:iron_axe",
+    H: "minecraft:iron_hoe",
+    L: "minecraft:leather"
+  })
+
+  event.shaped("sophisticatedbackpacks:jukebox_upgrade", [
+    'PDP',
+    'PLP',
+    'PPP'
+  ], {
+    P: "#minecraft:planks",
+    D: "minecraft:diamond",
+    L: "minecraft:leather"
+  })
+
+  event.shaped("sophisticatedbackpacks:advanced_refill_upgrade", [
+    'CMC',
+    'BLB',
+    ' H '
+  ], {
+    C: "create:cogwheel",
+    M: "create:mechanical_arm",
+    B: "create:brass_ingot",
+    L: "minecraft:leather",
+    H: "create:chute"
+  })
+
+  event.shaped("sophisticatedbackpacks:stack_upgrade_tier_1", [
+    'GAG',
+    'ALA',
+    'GUG'
+  ], {
+    G: "minecraft:gold_ingot",
+    A: "create:andesite_alloy",
+    L: "minecraft:leather",
+    U: "functionalstorage:copper_upgrade"
+  })
+})

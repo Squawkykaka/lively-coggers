@@ -56,7 +56,7 @@
 		inventorySlotCount = 36
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Diamond Backpack Settings
 	[server.diamondBackpack]
