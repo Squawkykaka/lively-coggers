@@ -4797,6 +4797,56 @@
             ]
         },
         {
+            "pakku_id": "9nTlVNXSso9hEuMx",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "steep-surface-fix"
+            },
+            "name": {
+                "modrinth": "Steep Surface Fix"
+            },
+            "id": {
+                "modrinth": "tWif3i7K"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "steep-surface-fix-1.0.0.jar",
+                    "mc_versions": [
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/tWif3i7K/versions/z1kfixae/steep-surface-fix-1.0.0.jar",
+                    "id": "z1kfixae",
+                    "parent_id": "tWif3i7K",
+                    "hashes": {
+                        "sha512": "e03a8fd1dcb89e9adedbf26bb7ec7b3602ba54603c3d6070d63eefd10587ea99447de6faef0795a3dc5cd13db7a95bd8754c990b26da6bd62315e43aba5ab6d0",
+                        "sha1": "c6a9f0639c3c91dbe9432b37d15e1603c7cbb1b8"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 8415,
+                    "date_published": "2023-03-18T00:15:27.035114Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QpxhqhjLCW01g8rW",
             "type": "MOD",
             "side": "BOTH",
