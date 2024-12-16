@@ -5,7 +5,6 @@
     "author": "Squawkykaka",
     "overrides": [
         "configureddefaults",
-        "kubejs",
-        "icon.png"
+        "kubejs"
     ]
 }
