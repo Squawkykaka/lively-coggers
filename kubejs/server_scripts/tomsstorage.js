@@ -2,7 +2,7 @@
 ServerEvents.recipes(event => {
     const transition = 'kubejs:incomplete_item_cable'
     event.recipes.create.sequenced_assembly([
-      Item.of("toms_storage:ts.inventory_cable", 4).withChance(0.95)
+      Item.of("toms_storage:ts.inventory_cable", 8)
     ], "create:fluid_pipe", [
       event.recipes.create.cutting(transition, transition),
       event.recipes.create.deploying(transition, [transition, Item.of("create:sturdy_sheet")]),

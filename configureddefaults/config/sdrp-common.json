@@ -3,5 +3,11 @@
   "enabled": true,
   "screenEvent": false,
   "clientJoinEvent": true,
-  "logState": false
+  "logState": false,
+  "buttons": [
+    {
+      "label": "Issues",
+      "url": "https://github.com/Squawkykaka/lively-coggers/issues"
+    }
+  ]
 }
