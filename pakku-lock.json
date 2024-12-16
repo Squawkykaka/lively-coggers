@@ -1322,6 +1322,77 @@
             ]
         },
         {
+            "pakku_id": "r099vFI4o6qyoDyI",
+            "pakku_links": [
+                "ogXU4VAy8CTu8Omh",
+                "IDwrHp3m5eAg3SBb"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-cobblestone",
+                "modrinth": "create-cobblestone"
+            },
+            "name": {
+                "curseforge": "Create Cobblestone",
+                "modrinth": "Create Cobblestone"
+            },
+            "id": {
+                "curseforge": "1023532",
+                "modrinth": "ihpnEd80"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createcobblestone-1.4.2+forge-1.20.1-74.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5958/987/createcobblestone-1.4.2+forge-1.20.1-74.jar",
+                    "id": "5958987",
+                    "parent_id": "1023532",
+                    "hashes": {
+                        "sha1": "29c92f4a6e7bf002c767361c43368b79c6c5abaa",
+                        "md5": "8ed2deb3164f8953013cddfc48bd7e6d"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 567518,
+                    "date_published": "2024-12-03T12:24:10.653Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "createcobblestone-1.4.2+forge-1.20.1-74.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ihpnEd80/versions/PH9a0847/createcobblestone-1.4.2+forge-1.20.1-74.jar",
+                    "id": "PH9a0847",
+                    "parent_id": "ihpnEd80",
+                    "hashes": {
+                        "sha512": "ba4377ea6235376b66f7acd99bb06005e86d398d5f52f51279afc155e86b8f10e41d3d6f9af109fb651c8e8957ad1a0696348fa783c1f2f48ca58f31885fae3d",
+                        "sha1": "29c92f4a6e7bf002c767361c43368b79c6c5abaa"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "lhGA9TYQ"
+                    ],
+                    "size": 567518,
+                    "date_published": "2024-12-03T11:08:08.488022Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "uWfTldIDmSuXZJ6v",
             "type": "MOD",
             "side": "BOTH",
