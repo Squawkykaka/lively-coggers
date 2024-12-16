@@ -3539,35 +3539,6 @@
             "redistributable": false,
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "lithosphere 1.2 25.06.2024.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.5",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20",
-                        "1.20.6",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5472/833/lithosphere 1.2 25.06.2024.jar",
-                    "id": "5472833",
-                    "parent_id": "995122",
-                    "hashes": {
-                        "sha1": "41f918a6ca007d3b159de75fc0cc2b7172f3c8b3",
-                        "md5": "619c123a516849260c3a312f8a6dd7a2"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 415266
-                },
-                {
                     "type": "modrinth",
                     "file_name": "lithosphere-1.2.jar",
                     "mc_versions": [
@@ -3600,7 +3571,38 @@
                     },
                     "required_dependencies": [
                     ],
-                    "size": 415266
+                    "size": 415266,
+                    "date_published": "2024-06-25T11:33:18.160140Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "lithosphere 1.2 25.06.2024.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5472/833/lithosphere 1.2 25.06.2024.jar",
+                    "id": "5472833",
+                    "parent_id": "995122",
+                    "hashes": {
+                        "sha1": "41f918a6ca007d3b159de75fc0cc2b7172f3c8b3",
+                        "md5": "619c123a516849260c3a312f8a6dd7a2"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 415266,
+                    "date_published": "2024-06-25T11:36:53.830Z"
                 }
             ]
         },
