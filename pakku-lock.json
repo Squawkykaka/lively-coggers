@@ -43,8 +43,7 @@
                         "sha1": "df3a826526381714df9718f39932643f5abec614",
                         "md5": "585811e4cf192207a729b5443f303f42"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 337193,
                     "date_published": "2024-11-13T23:08:16.137Z"
                 },
@@ -67,8 +66,7 @@
                         "sha512": "aeb10b6e30ab4d5937c1cc6f0f4bb1911141e16f0254a6465c924529ed96c98e7c8458c5f52ff2244acedd30d520768b40f84f8d03ad0ff3a2581b227f1e84ac",
                         "sha1": "df3a826526381714df9718f39932643f5abec614"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 337193,
                     "date_published": "2024-11-13T23:08:18.166263Z"
                 }
@@ -181,8 +179,7 @@
                         "sha1": "f0b711df59cd589b088e536ca4134c5e6e73fd58",
                         "md5": "20f9b054f4caceebda02847c149901af"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 15906,
                     "date_published": "2024-10-11T18:08:14.653Z"
                 },
@@ -206,10 +203,54 @@
                         "sha512": "58c4dea50fcb17593e2c97a23ce101c62b5b32e2fd71d4bbf323f2778d4474c991caba7234ecf4d06f1e246ccb9ad7f67f2fa73f023cd80ef55333e2ed952f43",
                         "sha1": "f0b711df59cd589b088e536ca4134c5e6e73fd58"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 15906,
                     "date_published": "2024-10-11T18:13:58.947870Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "apBSub1TpB79sI4X",
+            "pakku_links": [
+                "mNmtZc303g2RZdgR"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "antique-atlas-4"
+            },
+            "name": {
+                "modrinth": "Antique Atlas 4"
+            },
+            "id": {
+                "modrinth": "Y5Ve4Ui4"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "antique-atlas-2.10.0+1.20.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Y5Ve4Ui4/versions/lFYHSK5X/antique-atlas-2.10.0+1.20.jar",
+                    "id": "lFYHSK5X",
+                    "parent_id": "Y5Ve4Ui4",
+                    "hashes": {
+                        "sha512": "55d29b653658a557f06f59bf95a634f18f5570066be06ae77f37b9b8e4e1d79279a1ff2f3ab0fc479a4f860ddfff84a311f46338bb7c695bddee5a28b2cefbd9",
+                        "sha1": "8f4c2c18a42625e7a421c53301e6d43c8aa34232"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "4KjqhPc9"
+                    ],
+                    "size": 822875,
+                    "date_published": "2024-10-11T13:47:03.195099Z"
                 }
             ]
         },
@@ -248,8 +289,7 @@
                         "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
                         "md5": "dae63cea9c951dda542a4005ceef3953"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 47428,
                     "date_published": "2023-09-27T04:39:49.087Z"
                 },
@@ -270,8 +310,7 @@
                         "sha512": "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9",
                         "sha1": "81919356f84eab14258db98924b66c3c38e372b1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 47428,
                     "date_published": "2023-09-27T05:07:37.394825Z"
                 }
@@ -312,8 +351,7 @@
                         "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
                         "md5": "76b40d407b6bf0257dd1dab6d3d395d5"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 580602,
                     "date_published": "2024-02-26T13:18:59.227Z"
                 },
@@ -335,8 +373,7 @@
                         "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7",
                         "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 580602,
                     "date_published": "2024-02-26T13:19:00.816154Z"
                 }
@@ -378,8 +415,7 @@
                         "sha1": "fa8e3d65644e5bf1ea62f1ba3c94b0982dfb7357",
                         "md5": "8b5e3d0c39d567a44f269439f880b444"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 264951,
                     "date_published": "2023-06-22T18:24:14.363Z"
                 },
@@ -402,8 +438,7 @@
                         "sha512": "84cfbd80bf0a5a53ffa42f1c154e8f5991f27e5924df011849693e00310a2654962f9d9e1aaa237931d8fcc2fe13bd2908f1cd92261b1fed8d5fa2b685d83194",
                         "sha1": "fa8e3d65644e5bf1ea62f1ba3c94b0982dfb7357"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 264951,
                     "date_published": "2023-06-22T18:23:11.502437Z"
                 }
@@ -443,8 +478,7 @@
                         "sha1": "e041f044d707dd06a6efa2c63b39f26abf60f671",
                         "md5": "ccb8e1687a39cc613ad910460bd4ac3b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 373583,
                     "date_published": "2024-08-19T19:53:51.597Z"
                 },
@@ -466,8 +500,7 @@
                         "sha512": "62f736031f4485c952eb4b516cd456b75b8f045ba9d9776cc107eceda8e1d1d778949c3218d495a669e4dff4b51ed0395b10defd5c9f49d8c9e979151765b9e3",
                         "sha1": "fa6c9fd470820d94a77509e5a2c1e363ef81b2ad"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 373583,
                     "date_published": "2024-08-19T19:51:07.967398Z"
                 }
@@ -503,8 +536,7 @@
                         "sha1": "8c98ee795e2e32189cb1b9bea53a7e310742e19a",
                         "md5": "bcdd05bc35229e30d1d8ab1b3449def6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 86682,
                     "date_published": "2023-07-17T21:33:02.067Z"
                 }
@@ -545,8 +577,7 @@
                         "sha1": "c53d9eb5ce9e8ef0f2ea9b11e478d84ce958c3e5",
                         "md5": "46c8e7f9bcfa984bd576e448df2beb25"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 343962,
                     "date_published": "2024-06-13T15:17:32.300Z"
                 },
@@ -567,8 +598,7 @@
                         "sha512": "1143753a001bccb3fc84c699cc93343f1941da9b7a63d3a3b8078808262b42962f8b10a2c16ed97a49c058865a6dbaa7e85a1e8842b95039d222f06ab4ee9509",
                         "sha1": "c53d9eb5ce9e8ef0f2ea9b11e478d84ce958c3e5"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 343962,
                     "date_published": "2024-06-13T15:17:37.621721Z"
                 }
@@ -608,8 +638,7 @@
                         "sha1": "ca74a2ad65f149e7465e849b479abec863a82bf1",
                         "md5": "92b7b114f5ee6067b4f0eff1636817f2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 3063695,
                     "date_published": "2024-09-11T19:12:12.627Z"
                 },
@@ -630,8 +659,7 @@
                         "sha512": "d82e78dc579c5a30fc98d48b48d6b6876d74c1146a2c91bf1f1f0aa34daebaad92f3a3a4f355f9c9f05affed1c5c904b8bc660269aee568634956e22a0a49d3d",
                         "sha1": "ca74a2ad65f149e7465e849b479abec863a82bf1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 3063695,
                     "date_published": "2024-09-11T19:12:08.027947Z"
                 }
@@ -673,8 +701,7 @@
                         "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
                         "md5": "8956b37c2ae11cc5522c8404a262c6b7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 439457,
                     "date_published": "2023-11-19T22:32:08.460Z"
                 },
@@ -696,8 +723,7 @@
                         "sha512": "4f75afb703dd71c322d4e2e27d28d7ab4afeb0c242bcee6d1eb5fef59ee4347352f1ca55f1826743957d2e95a951ed13884356485b0a979b14010915079e2c29",
                         "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 439457,
                     "date_published": "2023-11-19T22:29:28.090790Z"
                 }
@@ -743,8 +769,7 @@
                         "sha1": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50",
                         "md5": "ed46120ac4f30ec8e03f6416e295577c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 341451,
                     "date_published": "2024-05-06T07:10:57.567Z"
                 },
@@ -769,8 +794,7 @@
                         "sha512": "13ef9d5bfea1895118eec45aa3071e2d79408241f29990624f67e157d4c525391753b0a1539ff3359dad79a6e5ab5e0b84fffbe528bdefcaaefd579ec794d9c9",
                         "sha1": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 341451,
                     "date_published": "2024-05-06T07:28:42.102951Z"
                 }
@@ -812,8 +836,7 @@
                         "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
                         "md5": "ca5de5acbcb4a30c010aa6953bd7ef53"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1181413,
                     "date_published": "2024-09-16T17:13:48.940Z"
                 },
@@ -835,8 +858,7 @@
                         "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef",
                         "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1181413,
                     "date_published": "2024-09-16T17:13:50.725690Z"
                 }
@@ -878,8 +900,7 @@
                         "sha1": "840036c824edfe6e155f4488337e5f5aec26a17f",
                         "md5": "9e9be8a8c82350e43dfdd5d76101be50"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 122868,
                     "date_published": "2024-09-15T11:06:45.690Z"
                 },
@@ -902,8 +923,7 @@
                         "sha512": "4f0c9400669b36b6504b495856d8b3f3ae6885ef41ba596f41a94ef7f39e88e976e91e2d49312ce9b155abdbbaf19acaf9ac0530e3557486b969dab79438734c",
                         "sha1": "840036c824edfe6e155f4488337e5f5aec26a17f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 122868,
                     "date_published": "2024-09-15T11:07:29.063744Z"
                 }
@@ -945,8 +965,7 @@
                         "sha1": "e7b9fe89566bb1ee013e33745f22f309f679536e",
                         "md5": "a88fcc168de1a0f9b2ae4e7cbe8a8408"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 382083,
                     "date_published": "2024-07-05T03:34:48.973Z"
                 },
@@ -969,8 +988,7 @@
                         "sha512": "5f8bc01de36814bbea454ad306efd6b7ae9de933117fe8c1197a13454804e4b71ddd0685a24ace45b81527a8489d4081f7e75b6c5d3f7d7c8f791520407fac09",
                         "sha1": "e7b9fe89566bb1ee013e33745f22f309f679536e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 382083,
                     "date_published": "2024-07-05T03:34:46.901956Z"
                 }
@@ -1014,8 +1032,7 @@
                         "sha1": "bedf1769a47640f76599925d2481beed982e2aa4",
                         "md5": "1b79261182b1d6f7d03185d287fdd48e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 40945,
                     "date_published": "2023-10-31T20:14:49.010Z"
                 },
@@ -1048,8 +1065,7 @@
                         "sha512": "5aa8b775703eb9a3e486641ff79656090a9e978c5598e08877b27b3507745af4271e4ae2a542377dee203f286f19e08950d5b4524b51a266cc054a15f9231ce1",
                         "sha1": "bedf1769a47640f76599925d2481beed982e2aa4"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 40945,
                     "date_published": "2023-10-31T20:14:52.999185Z"
                 }
@@ -1157,8 +1173,7 @@
                         "sha1": "e7840dc47248380fc96569956ebf31eb29010694",
                         "md5": "258dc56700d6684b16584982d5ddb886"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 244381,
                     "date_published": "2024-12-05T10:50:50.920Z"
                 },
@@ -1179,8 +1194,7 @@
                         "sha512": "5e7c1c50b37bd5af3ccc75377c9256bdfe9bbf5a1b50988436d8310ff066b662cb43381d9b43e7a2e2754eb11d4c64995cf53caa413910b2cb71fc8193e5c3e7",
                         "sha1": "97ed110de6b97d7acd7ee93bba84b117e73d404f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 244380,
                     "date_published": "2024-12-05T10:51:07.333153Z"
                 }
@@ -1221,8 +1235,7 @@
                         "sha1": "fab2ae7fcf685b3875ca20022bfecf0d4fdafbf7",
                         "md5": "db945b2441efa1a136d3f86126a6f813"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 15583566,
                     "date_published": "2024-10-23T20:14:49.660Z"
                 },
@@ -1244,8 +1257,7 @@
                         "sha512": "893b531f7d93e30561024087b8718934fc2bb93c4f3f40edff5346f18e0330c8d3524f1ebef50d90e91a20f7a679ef6da44dd9b6e68292afe28b1b88fa7f07fb",
                         "sha1": "fab2ae7fcf685b3875ca20022bfecf0d4fdafbf7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 15583566,
                     "date_published": "2024-10-23T20:15:29.730624Z"
                 }
@@ -1360,8 +1372,7 @@
                         "sha1": "29c92f4a6e7bf002c767361c43368b79c6c5abaa",
                         "md5": "8ed2deb3164f8953013cddfc48bd7e6d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 567518,
                     "date_published": "2024-12-03T12:24:10.653Z"
                 },
@@ -1427,8 +1438,7 @@
                         "sha1": "606650f31ca0a5eb64d4bbb8fbaecf357a3bdb43",
                         "md5": "9c86ef2ebb60aa617ac92c3ae1d3c545"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 3966138,
                     "date_published": "2024-04-26T21:12:12.260Z"
                 },
@@ -1562,8 +1572,7 @@
                         "sha1": "3bebfb40c2d232ac69214126012dd28106c3a917",
                         "md5": "9e83dde0179062f099a3ed28841a4df8"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8540,
                     "date_published": "2024-02-14T22:21:48.577Z"
                 },
@@ -1585,8 +1594,7 @@
                         "sha512": "0adb0e52632706465a5fd51e3610a76a16fb37a29b306adac792a196b22a0fa227eab17f9f077edf05814a715dc9d164ef6a1a3ce7d8fb135417b3e06a4b61d8",
                         "sha1": "3bebfb40c2d232ac69214126012dd28106c3a917"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8540,
                     "date_published": "2024-02-14T22:23:24.685919Z"
                 }
@@ -1965,8 +1973,7 @@
                         "sha1": "f81eead8c73b88463a3beb335be008fc388c82fa",
                         "md5": "9d752b17b0e6d1e9cfe3ea3a230aaba1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 389988,
                     "date_published": "2024-10-25T02:58:33.520Z"
                 },
@@ -1989,8 +1996,7 @@
                         "sha512": "f958e9496ea4b3538a287b67c34b51933fac9989d6dea7aa81b4a2b53ae555d4269dd01ca140c95cc470a0bb71ab5ed51e8a522519b1498cd7ccccc74a6ce94b",
                         "sha1": "f81eead8c73b88463a3beb335be008fc388c82fa"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 389988,
                     "date_published": "2024-10-25T02:58:31.106667Z"
                 }
@@ -2027,8 +2033,7 @@
                         "sha1": "71937e0fb77b64199857d8836f8bcc074a9b5292",
                         "md5": "72b8a9d28231f5213ebfe7ede5822aab"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 29766,
                     "date_published": "2023-12-12T09:16:59.840Z"
                 }
@@ -2069,8 +2074,7 @@
                         "sha1": "b11e38d9a3fdd40ceb962b51d9b782e1e4f5664c",
                         "md5": "e47dc2c8d23d6eef7010a13d88fb20f7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 342609,
                     "date_published": "2024-12-03T18:01:13.323Z"
                 },
@@ -2092,8 +2096,7 @@
                         "sha512": "0f39b1b83dfaa14a86dea93f723a8f54de82780f3575844349fc30acd185ac077856c381a072031fee7baf4f5dcaeaa6f21e898cbb4d2dff87d0b68309bf4e9f",
                         "sha1": "b11e38d9a3fdd40ceb962b51d9b782e1e4f5664c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 342609,
                     "date_published": "2024-12-03T18:01:15.876039Z"
                 }
@@ -2133,8 +2136,7 @@
                         "sha1": "0f4cf0d51db37dca3213bb22ed483a945f9206f6",
                         "md5": "ad7f948b2e64ebed12beabddf66f31f0"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1020776,
                     "date_published": "2024-11-03T20:13:40.613Z"
                 },
@@ -2155,8 +2157,7 @@
                         "sha512": "fcd703423763df75799fcab2829018669eed58b5412fda5fff8bf1272d13873d55b40f3adbcdef441b9ae63628525d06b30abbd12c1253732bc81db137cd1518",
                         "sha1": "0f4cf0d51db37dca3213bb22ed483a945f9206f6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1020776,
                     "date_published": "2024-11-03T20:13:37.738426Z"
                 }
@@ -2267,8 +2268,7 @@
                         "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
                         "md5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1320675,
                     "date_published": "2024-08-31T23:11:49.240Z"
                 },
@@ -2290,8 +2290,7 @@
                         "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9",
                         "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1320675,
                     "date_published": "2024-08-31T23:11:49.184634Z"
                 }
@@ -2401,8 +2400,7 @@
                         "sha1": "39b47004022f97a9c75c44cc3a46030ed161d38d",
                         "md5": "ad599f97f17270a1c35e330b3d66bacf"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 72990
                 },
                 {
@@ -2422,8 +2420,7 @@
                         "sha512": "6f6ad9e029600154a7bd916d76eb1eeb90860ca88ce78b1dff26a2b86f386dff3d3282a3746754b12897b52ec540d0ad3874203681050ef4a83b1d5bb86c51d5",
                         "sha1": "39b47004022f97a9c75c44cc3a46030ed161d38d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 72990
                 }
             ]
@@ -2463,8 +2460,7 @@
                         "sha1": "eda99c8659c675f2b3a9362129a061c4c11f7b2f",
                         "md5": "e0f1386d5e62a60f8a577dcaec3ebd1e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1326106,
                     "date_published": "2024-09-24T02:18:53.903Z"
                 },
@@ -2486,8 +2482,7 @@
                         "sha512": "47845fe77048201fbe25de88be6db6f8f54deb0b6446c40d342d32ed04271c4d505a0feecf11e1165cbbfb544b50e3dcdd94f47d3250f5e5a77f517641314f7d",
                         "sha1": "eda99c8659c675f2b3a9362129a061c4c11f7b2f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1326106,
                     "date_published": "2024-09-24T02:18:46.852871Z"
                 }
@@ -2529,8 +2524,7 @@
                         "sha1": "9534a0724ad9426fbfc795e4eeb814d7e8f76b25",
                         "md5": "3bedf3198980957b909a2ce41557960d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2944818,
                     "date_published": "2024-12-04T18:10:25.977Z"
                 },
@@ -2552,8 +2546,7 @@
                         "sha512": "0a9a800cc3ec692e4ceb4403bec2649ef2befddb0bf366ba2a5fbb01c9620bf806dca5fa8e67698d7002fb85e6c4427424f6a42957b6231a4ac31e27e96170eb",
                         "sha1": "9534a0724ad9426fbfc795e4eeb814d7e8f76b25"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2944818,
                     "date_published": "2024-12-04T18:10:23.541836Z"
                 }
@@ -2597,8 +2590,7 @@
                         "sha1": "cba9a0f2b37706ae0486e74636049545580892fd",
                         "md5": "4531ee0f3dec49c9d2e79cb00216aa67"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 10557,
                     "date_published": "2024-09-22T17:36:01.897Z"
                 },
@@ -2623,8 +2615,7 @@
                         "sha512": "1fc904dd25895fcf2c6fa75a1e42d88c1e082a1070e8a7d8559692cb5e538256686a128a84bf5326af9f92d84e478e2cfe6b6a53e055ac24631e8979aa7dedc8",
                         "sha1": "cba9a0f2b37706ae0486e74636049545580892fd"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 10557,
                     "date_published": "2024-09-22T17:36:02.937591Z"
                 }
@@ -2666,8 +2657,7 @@
                         "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
                         "md5": "f52f538207a4829d7060550092ce2383"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 123034,
                     "date_published": "2023-10-22T13:35:16.597Z"
                 },
@@ -2690,8 +2680,7 @@
                         "sha512": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c",
                         "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 123034,
                     "date_published": "2023-10-22T13:40:26.306516Z"
                 }
@@ -2867,8 +2856,7 @@
                         "sha1": "8567342d7148aab8d50ee8420e0755bc9599dda6",
                         "md5": "33984e82cd225d3920dce4871f87d2b7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2174338,
                     "date_published": "2024-11-12T21:30:37.263Z"
                 },
@@ -2889,8 +2877,7 @@
                         "sha512": "8721a772f1b3d812a74dcc45c17f615553c6c3b19b01e3567f8bc5c995573e714732e7aadc4ef5505db9a05d2f741e9da397d4d38f6d7d3d9523aa43033a6f5c",
                         "sha1": "8567342d7148aab8d50ee8420e0755bc9599dda6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2174338,
                     "date_published": "2024-11-12T21:30:39.392719Z"
                 }
@@ -2930,8 +2917,7 @@
                         "sha1": "1dfe9e2fee25f4668c3790e5c93b4177e615923b",
                         "md5": "319acae0cc3ba258636e6d77599b7504"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 54140,
                     "date_published": "2024-09-22T06:28:30.467Z"
                 },
@@ -2952,8 +2938,7 @@
                         "sha512": "ad4610e07589869fe8e36551a7714d8e938085fa8952d32292e2fa8bdf57739a86f48c0605728319bb4c458906cf013b8dd17e6fbe8c2ebc18f9cb3fc79873d3",
                         "sha1": "1dfe9e2fee25f4668c3790e5c93b4177e615923b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 54140,
                     "date_published": "2024-09-22T06:35:19.667428Z"
                 }
@@ -2995,8 +2980,7 @@
                         "sha1": "364c39334b7f7c842eecc839de2730a2899e580b",
                         "md5": "796952b1aa84c2438ad37905496f4e95"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 547818,
                     "date_published": "2024-11-05T02:03:30.970Z"
                 },
@@ -3019,8 +3003,7 @@
                         "sha512": "7eca39a04d4e91af3cd1e05ec288b9cbdf284799da444abeae3ee178eeee413e10bde2bc4cddc8a08259cb1cd2337c26ff92770b20cdab70e1554922ac96a968",
                         "sha1": "364c39334b7f7c842eecc839de2730a2899e580b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 547818,
                     "date_published": "2024-11-05T02:03:36.253089Z"
                 }
@@ -3060,8 +3043,7 @@
                         "sha1": "80520a596f3d2e7dc744591dae257dc87aaa204e",
                         "md5": "947e4bd94640abf098f05ebbc32d0f43"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1379051,
                     "date_published": "2024-10-26T08:07:27.173Z"
                 },
@@ -3082,8 +3064,7 @@
                         "sha512": "bdf079afca6f3ed1bf9a1226fa8fc4c4e71ff679c1dc3289a558084c2cfbc2b5cd122636c73a2fd0e25cd468d32efce29175774aaa6389a249ce2c1062075dff",
                         "sha1": "80520a596f3d2e7dc744591dae257dc87aaa204e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1379051,
                     "date_published": "2024-10-26T08:07:39.411096Z"
                 }
@@ -3128,8 +3109,7 @@
                         "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5",
                         "md5": "417caa90d17dc86cf7d24b802c2a5c56"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 7193768,
                     "date_published": "2024-06-05T23:45:43.380Z"
                 },
@@ -3157,8 +3137,7 @@
                         "sha512": "d72707078f0c4fde78981c638ca976722f22a64ce74bdb489258790fe9886d763a7b1e0dfbc5429ddd3105d8a65d177f06242dfb1457e219e56c70dd3e8cbf2c",
                         "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 7193768,
                     "date_published": "2024-06-06T01:10:20.253226Z"
                 }
@@ -3499,8 +3478,7 @@
                         "sha512": "297b7aedca66d6180bab4922a9e9ce0ba9fd74a83ac3e84a2f9958dc45a19eb4e1d5f27b6b5e52ce07547e7d074cbd8b01f4f3636ed7b10f8f248665112f3cc1",
                         "sha1": "41f918a6ca007d3b159de75fc0cc2b7172f3c8b3"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 415266,
                     "date_published": "2024-06-25T11:33:18.160140Z"
                 },
@@ -3529,8 +3507,7 @@
                         "sha1": "41f918a6ca007d3b159de75fc0cc2b7172f3c8b3",
                         "md5": "619c123a516849260c3a312f8a6dd7a2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 415266,
                     "date_published": "2024-06-25T11:36:53.830Z"
                 }
@@ -3571,8 +3548,7 @@
                         "sha1": "5e0d8b4d398780946f295b31b7b65bf201d7dcc7",
                         "md5": "6f74c321a57853a86e674bae5d019c3b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 241907,
                     "date_published": "2024-06-06T20:16:06.950Z"
                 },
@@ -3594,8 +3570,7 @@
                         "sha512": "50d79869601a81375fcb5d60635abbb901770107c675e07a0d5aade4c235bb3ff6879310b821583df856fa034b839045ae5f5fe7d543280195c4c2405b83dc4f",
                         "sha1": "5e0d8b4d398780946f295b31b7b65bf201d7dcc7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 241907,
                     "date_published": "2024-06-06T20:16:05.907987Z"
                 }
@@ -3635,8 +3610,7 @@
                         "sha1": "df041edb91d784bfba47bc701cc45582bd168ad7",
                         "md5": "86a2129d7a100c542441a63bedc8033f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 778617,
                     "date_published": "2024-12-07T20:41:22.373Z"
                 },
@@ -3657,8 +3631,7 @@
                         "sha512": "b1edfd64134a770664af133b2843443a533fc7456dabc048b25b22dadf2dfbd6aa02e3ad9f8edb9b0ee74688c352126ef941b61432c91b999a95f514a260ba62",
                         "sha1": "df041edb91d784bfba47bc701cc45582bd168ad7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 778617,
                     "date_published": "2024-12-07T20:41:26.778580Z"
                 }
@@ -3698,8 +3671,7 @@
                         "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
                         "md5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 76237,
                     "date_published": "2024-05-12T16:26:46.523Z"
                 },
@@ -3720,8 +3692,7 @@
                         "sha512": "a3bb0272c0a1a3be9250dfee030bb8f86217fa6a32bd534be8c940fdd8c466c800c2df85874877983ced36ecfc28c8ced6c0d42107c1ab621385b4be9a7c65eb",
                         "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 76237,
                     "date_published": "2024-05-12T16:27:50.280746Z"
                 }
@@ -3761,8 +3732,7 @@
                         "sha1": "31ae930cdbb34e8e05e1954cfb2fee3a3813e850",
                         "md5": "7c05072645b1aae529b1e38c74b87c4c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 215119,
                     "date_published": "2023-08-19T13:57:24.937Z"
                 },
@@ -3783,8 +3753,7 @@
                         "sha512": "7a2a9e9e91f9d2093d94c42ed056bca4048f39ba45b233415b6d1874986b5848a82826873ccc2b38abccbdf5652f2e217482354c66434ed1b93df8971cb0bea3",
                         "sha1": "31ae930cdbb34e8e05e1954cfb2fee3a3813e850"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 215119,
                     "date_published": "2023-09-15T23:02:15.024186Z"
                 }
@@ -3825,8 +3794,7 @@
                         "sha1": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf",
                         "md5": "a1f1433ea551925436e6b170ac2ff619"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 33251,
                     "date_published": "2024-10-01T04:09:07.960Z"
                 },
@@ -3852,8 +3820,7 @@
                         "sha512": "d63d8d3e252197b7cabffc10ba6ec718d03b0038345d40dc5c9ce3014b9e542a35760ab0250f179b3de4183fe34784d645157b34bf54648c0ebbe24604ed5ba7",
                         "sha1": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 33251,
                     "date_published": "2024-10-01T04:11:48.208214Z"
                 }
@@ -3895,8 +3862,7 @@
                         "sha1": "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808",
                         "md5": "3a8e9a24408c991b3fb97685884f2cce"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 218152,
                     "date_published": "2024-08-21T17:24:11.600Z"
                 },
@@ -3919,8 +3885,7 @@
                         "sha512": "5bc43bc1b748edcd63d074a8bb14d393d986c51e1933e1f38cd7a2dd2fd70dba5a46a6415f46d4a52c68e7e1e9ce101e54376ad04273df958608e2fdb43db502",
                         "sha1": "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 218152,
                     "date_published": "2024-08-21T17:24:14.967570Z"
                 }
@@ -4173,8 +4138,7 @@
                         "sha1": "94592f3ffba15b991118e7dbea99b7f10aa6c0cc",
                         "md5": "50b704c0f2c18db908ce99d628889a9a"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 298759,
                     "date_published": "2024-05-26T00:58:52.777Z"
                 },
@@ -4196,8 +4160,7 @@
                         "sha512": "324cea6e6f0656cda51ab38bc1d4e97fd92f55c10ce7f2fd1ac19a118acfe07a943b057e26f64308fe9c54263ca58caf348b67dabec9c26e31e8e04bd945f9e1",
                         "sha1": "94592f3ffba15b991118e7dbea99b7f10aa6c0cc"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 298759,
                     "date_published": "2024-05-26T00:58:50.720973Z"
                 }
@@ -4331,8 +4294,7 @@
                         "sha1": "39c6aa4497f49ef462153e14cff4f0b069fde211",
                         "md5": "0963c977574b04500ac5d36560120f20"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 988280,
                     "date_published": "2024-02-11T12:50:34.290Z"
                 }
@@ -4372,8 +4334,7 @@
                         "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa",
                         "md5": "a040c6cc86f653fddf280ff3af9068f0"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 432753,
                     "date_published": "2024-08-24T19:45:21Z"
                 },
@@ -4394,8 +4355,7 @@
                         "sha512": "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820",
                         "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 432753,
                     "date_published": "2024-08-24T19:45:23.325509Z"
                 }
@@ -4435,8 +4395,7 @@
                         "sha1": "0c91c1710d7338f139b7cb3465f00590e210139e",
                         "md5": "c6f376b91e330b5e220541aab5edd92f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1796600,
                     "date_published": "2024-08-23T12:53:18.240Z"
                 },
@@ -4457,8 +4416,7 @@
                         "sha512": "5e9f06561b776c472848d0f44461ad4daef64b08db9734ced785fede6198748f785f7ca721f806cf118c995bc43b2807e138845962b43fa2d91d97d972237341",
                         "sha1": "0c91c1710d7338f139b7cb3465f00590e210139e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1796600,
                     "date_published": "2024-08-23T12:53:19.932888Z"
                 }
@@ -4498,8 +4456,7 @@
                         "sha1": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee",
                         "md5": "9f5418e9c08c18a375ef42fada4bcef2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 77732,
                     "date_published": "2024-04-23T06:56:49.313Z"
                 },
@@ -4520,8 +4477,7 @@
                         "sha512": "185617d6d446f3d4ef6c7d5c6ee4e2fb731a89f7495157313b21292ec6b8e3dbcc10c0379ab49ecb2d0c64d0a78df74750d7f7336d5e6c43516a7c92f278c0a2",
                         "sha1": "5b976f6e76ec74cdef21865e31f56bcb11558db7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 77732,
                     "date_published": "2024-04-23T06:56:56.381361Z"
                 }
@@ -4703,8 +4659,7 @@
                         "sha1": "aaaa9367706fdf05141ec2c053f5ecd93d8fc45c",
                         "md5": "4447581a9987f9b60fe0d319604a2a94"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1120861,
                     "date_published": "2024-12-09T18:33:32.060Z"
                 },
@@ -4726,8 +4681,7 @@
                         "sha512": "a1c45a9366cf8321ae3f811613f5130618aeec8eb934e01c7fd33efec2e019855cc1d3a2d4709a86a3aa3be38e5a34a19f0bef0162ca9ee2b218b4fa1d54a319",
                         "sha1": "79d1b84d376d398905e6b73f98533d99c81e69ae"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1120861,
                     "date_published": "2024-12-09T18:33:50.276048Z"
                 }
@@ -4767,8 +4721,7 @@
                         "sha1": "db306008033065fc4ca97f66d38183206a55d458",
                         "md5": "6d3b3f31a75b147f35756fd385ef4e9f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 189826,
                     "date_published": "2023-06-19T05:38:11.530Z"
                 },
@@ -4789,8 +4742,7 @@
                         "sha512": "8da054a5f7578841413f90d64dbbe715c712c5042ea796fff52a9c754192cdcf59480900a368d86a3d99a1f68e7ed0b36b52e092dbedff3fd709bfa539b23aaf",
                         "sha1": "db306008033065fc4ca97f66d38183206a55d458"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 189826,
                     "date_published": "2023-06-19T05:38:13.094321Z"
                 }
@@ -4839,10 +4791,50 @@
                         "sha512": "e03a8fd1dcb89e9adedbf26bb7ec7b3602ba54603c3d6070d63eefd10587ea99447de6faef0795a3dc5cd13db7a95bd8754c990b26da6bd62315e43aba5ab6d0",
                         "sha1": "c6a9f0639c3c91dbe9432b37d15e1603c7cbb1b8"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8415,
                     "date_published": "2023-03-18T00:15:27.035114Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "mNmtZc303g2RZdgR",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "surveyor"
+            },
+            "name": {
+                "modrinth": "Surveyor Map Framework"
+            },
+            "id": {
+                "modrinth": "4KjqhPc9"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "surveyor-0.6.25+1.20.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/4KjqhPc9/versions/LsmOscmT/surveyor-0.6.25+1.20.jar",
+                    "id": "LsmOscmT",
+                    "parent_id": "4KjqhPc9",
+                    "hashes": {
+                        "sha512": "4d703a7d9c34c6f91e883695516cf0ba71707b4016d1a91a298bbcdd75235f23d9f1c73a31ef3bc703f209732bacbd499a20553e600b3c5c76a6eae655b7dcfc",
+                        "sha1": "daf5a2c1e7a197027ef55c21f085d791be2430e9"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 560021,
+                    "date_published": "2024-10-16T04:02:48.217475Z"
                 }
             ]
         },
@@ -4880,8 +4872,7 @@
                         "sha1": "afbb7536bdd5e723688c1eaa38df398fe15d0b18",
                         "md5": "78abbc04e408fb61de6df9c968008c4b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 107534,
                     "date_published": "2024-05-28T09:38:10.920Z"
                 },
@@ -4902,8 +4893,7 @@
                         "sha512": "6fe8b495c37bb3da158d461d5613f3a5414b77693c98ade3b5930a28d4b0f26c654ca9fd9eca96d98b7bce27f0e5c6a1a908bec74b58c03d30cb92503f22f446",
                         "sha1": "18bb3f31d3188f8d5d96e80061615e260be2d44d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 107534,
                     "date_published": "2024-05-28T09:38:37.849426Z"
                 }
@@ -4943,8 +4933,7 @@
                         "sha1": "4672c64a8019e81a4a6c8239f20661d5edbd5da1",
                         "md5": "75baf7f67163a1da0fbb6a8bc98fa012"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 622068,
                     "date_published": "2024-06-24T17:03:52.457Z"
                 },
@@ -4965,8 +4954,7 @@
                         "sha512": "c4563176fad77499859691d8b5e18c35e08fec0a31f57f9e51f3538462f1ad738fb29335fc46d5857bffbdfc2dbd49bb32dc96614876d1f858b8cc81d6264057",
                         "sha1": "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 622068,
                     "date_published": "2024-06-24T17:04:00.648306Z"
                 }
@@ -5007,8 +4995,7 @@
                         "sha1": "87ae6d6eca443036a726291e015a0f3f8bdaaed3",
                         "md5": "becb1cfe0f902023c8d8e1b101ca482e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 512499,
                     "date_published": "2024-07-20T13:42:44.430Z"
                 },
@@ -5030,8 +5017,7 @@
                         "sha512": "4136218c3dba7d1b3494b3f5bd210ae90f981399943db54b6ac515eb7a2422721585026d32b1d25395ec74d2ca9892ba8d203a53865252430df3e5c10767ed7a",
                         "sha1": "87ae6d6eca443036a726291e015a0f3f8bdaaed3"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 512499,
                     "date_published": "2024-07-20T13:42:46.606730Z"
                 }
@@ -5071,8 +5057,7 @@
                         "sha1": "6efdaf5d213f779e51aa84631a5f06a306351e75",
                         "md5": "b6a02a72cc15d1b1228c4b1ecf7fa3ee"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 568278,
                     "date_published": "2023-08-03T18:04:25.470Z"
                 },
@@ -5094,8 +5079,7 @@
                         "sha512": "55afa06e7020d6b84725d996046382641dd044078b5a1d918f30ae531a33be98990612dfc5eea41ec404246ce6eb0b77189d931e71c17b15bf5b903bc184444a",
                         "sha1": "d40beae393ec07da5faf925cea380e31a7f08d39"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 568278,
                     "date_published": "2023-09-16T13:07:51.895522Z"
                 }
@@ -5147,8 +5131,7 @@
                         "sha1": "e38c66e88e30625475fca7fbf89b11d7d5ba1030",
                         "md5": "facef56d678a6a85c036440e69a2753c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 97235,
                     "date_published": "2024-10-30T21:45:06.903Z"
                 },
@@ -5731,8 +5714,7 @@
                         "sha512": "a8d922294ff8633a1e8872e9cedc1a125027692906c6ee1a828aaf517f7774d0f494dc8879f53a90fe7200b3c46890a725f83d2f2aa3aa4aa59d1bdd4c3dae12",
                         "sha1": "e38c66e88e30625475fca7fbf89b11d7d5ba1030"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 97235,
                     "date_published": "2024-10-30T21:45:07.837775Z"
                 }
@@ -5778,8 +5760,7 @@
                         "sha1": "a7b2dd11a75b47b87b5f549ea6f1ad821f47edaa",
                         "md5": "786e99fc5e1a86a5d0fd3bc029b4da8b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 616856,
                     "date_published": "2024-09-22T08:56:22.510Z"
                 },
@@ -5814,8 +5795,7 @@
                         "sha512": "c884e8fc1618978c937dde1fd4b0bb452a790f9a27ee553214b364445f2e66439d861bdd85eadb282e5be4b76063e928df1a650ccb7f657ba7811bf3464d57a6",
                         "sha1": "a7b2dd11a75b47b87b5f549ea6f1ad821f47edaa"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 616856,
                     "date_published": "2024-09-22T08:56:21.462079Z"
                 }
