@@ -210,51 +210,6 @@
             ]
         },
         {
-            "pakku_id": "apBSub1TpB79sI4X",
-            "pakku_links": [
-                "mNmtZc303g2RZdgR"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "antique-atlas-4"
-            },
-            "name": {
-                "modrinth": "Antique Atlas 4"
-            },
-            "id": {
-                "modrinth": "Y5Ve4Ui4"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "antique-atlas-2.10.0+1.20.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Y5Ve4Ui4/versions/lFYHSK5X/antique-atlas-2.10.0+1.20.jar",
-                    "id": "lFYHSK5X",
-                    "parent_id": "Y5Ve4Ui4",
-                    "hashes": {
-                        "sha512": "55d29b653658a557f06f59bf95a634f18f5570066be06ae77f37b9b8e4e1d79279a1ff2f3ab0fc479a4f860ddfff84a311f46338bb7c695bddee5a28b2cefbd9",
-                        "sha1": "8f4c2c18a42625e7a421c53301e6d43c8aa34232"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH",
-                        "4KjqhPc9"
-                    ],
-                    "size": 822875,
-                    "date_published": "2024-10-11T13:47:03.195099Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "VmDIRDfMhxwc9waL",
             "type": "MOD",
             "side": "BOTH",
@@ -4798,47 +4753,6 @@
             ]
         },
         {
-            "pakku_id": "mNmtZc303g2RZdgR",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "surveyor"
-            },
-            "name": {
-                "modrinth": "Surveyor Map Framework"
-            },
-            "id": {
-                "modrinth": "4KjqhPc9"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "surveyor-0.6.25+1.20.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/4KjqhPc9/versions/LsmOscmT/surveyor-0.6.25+1.20.jar",
-                    "id": "LsmOscmT",
-                    "parent_id": "4KjqhPc9",
-                    "hashes": {
-                        "sha512": "4d703a7d9c34c6f91e883695516cf0ba71707b4016d1a91a298bbcdd75235f23d9f1c73a31ef3bc703f209732bacbd499a20553e600b3c5c76a6eae655b7dcfc",
-                        "sha1": "daf5a2c1e7a197027ef55c21f085d791be2430e9"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 560021,
-                    "date_published": "2024-10-16T04:02:48.217475Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "QpxhqhjLCW01g8rW",
             "type": "MOD",
             "side": "BOTH",
@@ -5020,6 +4934,132 @@
                     "required_dependencies": [],
                     "size": 512499,
                     "date_published": "2024-07-20T13:42:46.606730Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5kkmHKCirQ2Pcwb7",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "xaeros-minimap",
+                "modrinth": "xaeros-minimap"
+            },
+            "name": {
+                "curseforge": "Xaero's Minimap",
+                "modrinth": "Xaero's Minimap"
+            },
+            "id": {
+                "curseforge": "263420",
+                "modrinth": "1bokaNcj"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5862/235/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+                    "id": "5862235",
+                    "parent_id": "263420",
+                    "hashes": {
+                        "sha1": "dc7d7216a36db344f4f126b88170f783b1d197ea",
+                        "md5": "f4298b934da5b891604978187570565b"
+                    },
+                    "required_dependencies": [],
+                    "size": 1605900,
+                    "date_published": "2024-10-31T08:06:28.390Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/C3YstOIl/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+                    "id": "C3YstOIl",
+                    "parent_id": "1bokaNcj",
+                    "hashes": {
+                        "sha512": "4b81641027bd90d115adad0de4a171cf2b73cf7068a1ecf7b622875d87a22fdf37c8936e3cd8f091a42cdb17dbe678183c45d3b6cf59842514bf0b33a8d55165",
+                        "sha1": "dc7d7216a36db344f4f126b88170f783b1d197ea"
+                    },
+                    "required_dependencies": [],
+                    "size": 1605900,
+                    "date_published": "2024-10-31T08:18:47.662992Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "z6hvourjTRZ0Ox2p",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "xaeros-world-map",
+                "modrinth": "xaeros-world-map"
+            },
+            "name": {
+                "curseforge": "Xaero's World Map",
+                "modrinth": "Xaero's World Map"
+            },
+            "id": {
+                "curseforge": "317780",
+                "modrinth": "NcUtCpym"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "XaerosWorldMap_1.39.2_Forge_1.20.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5987/149/XaerosWorldMap_1.39.2_Forge_1.20.jar",
+                    "id": "5987149",
+                    "parent_id": "317780",
+                    "hashes": {
+                        "sha1": "75fa377a33128aa0f294b310838032ddd697810f",
+                        "md5": "d052e96d54415b5073acec65ae548245"
+                    },
+                    "required_dependencies": [],
+                    "size": 931860,
+                    "date_published": "2024-12-13T08:18:53.190Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "XaerosWorldMap_1.39.2_Forge_1.20.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/3Wmpi0tR/XaerosWorldMap_1.39.2_Forge_1.20.jar",
+                    "id": "3Wmpi0tR",
+                    "parent_id": "NcUtCpym",
+                    "hashes": {
+                        "sha512": "b719fba032ad51dd390a9d3906c801d17aa6dc88106b37a78f230144f3f435c35f0a0f3fc3193d199d09146800c11b64194b6aa246c7e3135b4d32c564c5cb90",
+                        "sha1": "75fa377a33128aa0f294b310838032ddd697810f"
+                    },
+                    "required_dependencies": [],
+                    "size": 931860,
+                    "date_published": "2024-12-13T08:34:56.041590Z"
                 }
             ]
         },
