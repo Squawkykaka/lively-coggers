@@ -12,16 +12,15 @@ ServerEvents.recipes(event => {
 
 ServerEvents.recipes(event => {
   event.shapeless("toms_storage:ts.inventory_cable_connector_filtered", ["toms_storage:ts.inventory_cable_connector", "create:filter"])
-  event.recipes.create.mechanical_crafting("toms_storage:ts.inventory_cable_connector", [
-    "SBIBS",
-    " RIR ",
-    "  D  "
+  event.shaped("toms_storage:ts.inventory_cable_connector", [
+    "BIB",
+    "RIR",
+    " S "
   ], {
     I: "toms_storage:ts.inventory_cable",
     S: "create:sturdy_sheet",
-    B: "create:brass_casing",
-    R: "minecraft:redstone",
-    D: "minecraft:diamond"
+    B: "create:brass_ingot",
+    R: "minecraft:redstone"
   })
   event.replaceInput({id: "toms_storage:trim"}, "minecraft:chest", "create:item_vault")
   event.replaceInput({id: "toms_storage:trim"}, "#minecraft:planks", "create:andesite_alloy")
