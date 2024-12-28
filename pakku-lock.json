@@ -4510,6 +4510,67 @@
             ]
         },
         {
+            "pakku_id": "ixv3dNytIYRjYCXu",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "simple-voice-chat",
+                "modrinth": "simple-voice-chat"
+            },
+            "name": {
+                "curseforge": "Simple Voice Chat",
+                "modrinth": "Simple Voice Chat"
+            },
+            "id": {
+                "curseforge": "416089",
+                "modrinth": "9eGKb6K1"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "voicechat-forge-1.20.1-2.5.27.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5998/323/voicechat-forge-1.20.1-2.5.27.jar",
+                    "id": "5998323",
+                    "parent_id": "416089",
+                    "hashes": {
+                        "sha1": "253b5fe97ee133376c74252f636262daa9face97",
+                        "md5": "4ad3415a2af00734c494d7200da5b464"
+                    },
+                    "required_dependencies": [],
+                    "size": 7738897,
+                    "date_published": "2024-12-17T11:13:56.827Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "voicechat-forge-1.20.1-2.5.27.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/GRa3Q3uZ/voicechat-forge-1.20.1-2.5.27.jar",
+                    "id": "GRa3Q3uZ",
+                    "parent_id": "9eGKb6K1",
+                    "hashes": {
+                        "sha512": "1e7f110a26bed53f5842cb711075830cde64a092bb221512006e70bf2da7b4cf8440990beee491de2c72af1376e46551561181ae0ba0a4b589193119d4e6ba31",
+                        "sha1": "30ad941c8839fce217cb88645957a6e23afeba2b"
+                    },
+                    "required_dependencies": [],
+                    "size": 7738897,
+                    "date_published": "2024-12-17T11:14:20.395736Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "FwnStWUb95xSDDcc",
             "pakku_links": [
                 "TIdrbY0G3NI98SqI"
