@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
     event.remove({id: "toms_storage:open_crate"})
     event.remove({id: "toms_storage:storage_terminal"})
     event.remove({id: "toms_storage:crafting_terminal"})
+    event.remove({id: "createdeco:compacting/industrial_iron_ingot"})
 })
 
 ServerEvents.recipes(event => {
