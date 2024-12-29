@@ -114,14 +114,18 @@ jobs:
               run: |
                 mkdir -p ./server
                 unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
+            - name: Zip Curseforge Directory
+              run: zip -r curseforge.zip ./curseforge
+            - name: Zip Server Directory
+              run: zip -r server.zip ./server
             - name: Upload Curseforge Asset
               uses: actions/upload-release-asset@v1
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: ./curseforge
-                asset_name: curseforge
+                asset_path: ./curseforge.zip
+                asset_name: curseforge.zip
                 asset_content_type: application/zip
             - name: Upload Server Asset
               uses: actions/upload-release-asset@v1
@@ -129,6 +133,6 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: ./server
-                asset_name: server
+                asset_path: ./server.zip
+                asset_name: server.zip
                 asset_content_type: application/zip
