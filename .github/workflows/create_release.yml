@@ -106,13 +106,24 @@ jobs:
                 path: ./server-artifact
             - name: List downloaded files
               run: ls -R ./curseforge-artifact ./server-artifact
+            - name: Extract Artifacts
+              run: |
+                mkdir -p ./curseforge
+                unzip ./curseforge-artifact/Lively\ Coggers-*.zip -d ./curseforge
+
+                mkdir -p ./server
+                unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
+            - name: Zip Curseforge Directory
+              run: zip -r curseforge.zip ./curseforge/*
+            - name: Zip Server Directory
+              run: zip -r server.zip ./server/*
             - name: Upload Curseforge Asset
               uses: actions/upload-release-asset@v1
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: ./curseforge-artifact/Lively\ Coggers-*.zip
+                asset_path: curseforge.zip
                 asset_name: curseforge-${{ needs.Increment-Version.outputs.new_version }}.zip
                 asset_content_type: application/zip
             - name: Upload Server Asset
@@ -121,6 +132,6 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: ./server-artifact/Lively\ Coggers-*.zip
+                asset_path: server.zip
                 asset_name: server-${{ needs.Increment-Version.outputs.new_version }}.zip
                 asset_content_type: application/zip
