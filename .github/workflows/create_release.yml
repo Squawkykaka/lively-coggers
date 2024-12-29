@@ -95,11 +95,11 @@ jobs:
         needs: [Create-Release, Build-Minecraft-Modpack]
         steps:
             - name: Download the curseforge artifact
-              uses: actions/download-artifact@v2
+              uses: actions/download-artifact@v4
               with:
                 name: curseforge-artifact
             - name: Download the server artifact
-              uses: actions/download-artifact@v2
+              uses: actions/download-artifact@v4
               with:
                 name: server-artifact
             - name: Upload Curseforge Asset
