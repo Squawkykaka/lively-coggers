@@ -1,0 +1,81 @@
+name: "Create Release"
+on:
+  workflow_dispatch:
+
+jobs:
+    Increment-Version:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+            - name: Increment version in pakku.json
+              run: |
+                current_version=$(jq -r '.version' pakku.json)
+                IFS='.' read -r -a version_parts <<< "$current_version"
+                version_parts[2]=$((version_parts[2] + 1))
+                new_version="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
+                jq --arg new_version "$new_version" '.version = $new_version' pakku.json > pakku.tmp && mv pakku.tmp pakku.json
+            - name: Commit and push changes
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                git config --global user.name 'github-actions'
+                git config --global user.email 'github-actions@github.com'
+                git add pakku.json
+                git commit -m "Increment version to $new_version"
+                git push
+
+
+    Build-Minecraft-Modpack:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+            - name: Set up JDK 21
+              uses: actions/setup-java@v2
+              with:
+                  distribution: 'adopt'
+                  java-version: '21'
+            - name: Setup pakku
+              run: |
+                  wget https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar
+            - name: Export modpack
+              run: java -jar pakku.jar export
+            - name: 'Upload Curseforge Build Artifact'
+              uses: actions/upload-artifact@v4
+              with:
+                name: curseforge-artifact
+                path: ./build/curseforge/
+                retention-days: 5
+            - name: 'Upload Server Build Artifact'
+              uses: actions/upload-artifact@v4
+              with:
+                name: server-artifact
+                path: ./build/serverpack/
+                retention-days: 5
+
+    Create-Release:
+        name: Create Release
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v2
+          - name: Create Release
+            id: create_release
+            uses: actions/create-release@v1
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+            with:
+              tag_name: ${{ github.ref }}
+              release_name: Release ${{ github.ref }}
+              body: |
+                Changes in this Release
+                ## Added mods:
+                    - etc
+                ## Removed mods:
+                    - etc
+                ## Other changes
+                    - etc
+
+              draft: true
+              prerelease: true
