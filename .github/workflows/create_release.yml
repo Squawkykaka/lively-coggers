@@ -65,6 +65,8 @@ jobs:
         name: Create Release
         runs-on: ubuntu-latest
         needs: Increment-Version
+        outputs:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
         steps:
           - name: Checkout code
             uses: actions/checkout@v2
@@ -86,3 +88,27 @@ jobs:
                 - etc
               draft: true
               prerelease: true
+
+    Upload-Release-Asset:
+        name: Upload Release Asset
+        runs-on: ubuntu-latest
+        needs: Create-Release
+        steps:
+            - name: Download the curseforge artifact
+              uses: actions/download-artifact@v2
+              with:
+                name: curseforge-artifact
+            - name: Download the server artifact
+              uses: actions/download-artifact@v2
+              with:
+                name: server-artifact
+            - name: Upload Curseforge Asset
+              id: upload-release-asset
+              uses: actions/upload-release-asset@v1
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                upload_url: ${{ needs.Create-Release.outputs.upload_url }}
+                asset_path: ./curseforge-artifact
+                asset_name: curseforge.zip
+                asset_content_type: application/zip
