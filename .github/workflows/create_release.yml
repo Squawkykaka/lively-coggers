@@ -64,7 +64,7 @@ jobs:
     Create-Release:
         name: Create Release
         runs-on: ubuntu-latest
-        needs: Increment-Version
+        needs: Build-Minecraft-Modpack
         outputs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
         steps:
@@ -106,14 +106,22 @@ jobs:
                 path: ./server-artifact
             - name: List downloaded files
               run: ls -R ./curseforge-artifact ./server-artifact
+            - name: Extract Curseforge Artifact
+              run: |
+                mkdir -p ./curseforge
+                unzip ./curseforge-artifact/Lively\ Coggers-*.zip -d ./curseforge
+            - name: Extract Server Artifact
+              run: |
+                mkdir -p ./server
+                unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
             - name: Upload Curseforge Asset
               uses: actions/upload-release-asset@v1
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: ./curseforge-artifact/curseforge.zip
-                asset_name: curseforge.zip
+                asset_path: ./curseforge
+                asset_name: curseforge
                 asset_content_type: application/zip
             - name: Upload Server Asset
               uses: actions/upload-release-asset@v1
@@ -121,6 +129,6 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: ./server-artifact/server.zip
-                asset_name: server.zip
+                asset_path: ./server
+                asset_name: server
                 asset_content_type: application/zip
