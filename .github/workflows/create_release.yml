@@ -92,7 +92,7 @@ jobs:
     Upload-Release-Asset:
         name: Upload Release Asset
         runs-on: ubuntu-latest
-        needs: Create-Release
+        needs: [Create-Release, Build-Minecraft-Modpack]
         steps:
             - name: Download the curseforge artifact
               uses: actions/download-artifact@v2
