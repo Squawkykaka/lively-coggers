@@ -106,18 +106,17 @@ jobs:
                 path: ./server-artifact
             - name: List downloaded files
               run: ls -R ./curseforge-artifact ./server-artifact
-            - name: Extract Curseforge Artifact
+            - name: Extract Artifacts
               run: |
                 mkdir -p ./curseforge
                 unzip ./curseforge-artifact/Lively\ Coggers-*.zip -d ./curseforge
-            - name: Extract Server Artifact
-              run: |
+
                 mkdir -p ./server
                 unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
             - name: Zip Curseforge Directory
-              run: zip -r curseforge.zip ./curseforge
+              run: zip -r curseforge.zip ./curseforge/*
             - name: Zip Server Directory
-              run: zip -r server.zip ./server
+              run: zip -r server.zip ./server/*
             - name: Upload Curseforge Asset
               uses: actions/upload-release-asset@v1
               env:
