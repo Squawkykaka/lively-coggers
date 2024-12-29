@@ -104,6 +104,8 @@ jobs:
               with:
                 name: server-artifact
                 path: ./server-artifact
+            - name: List downloaded files
+              run: ls -R ./curseforge-artifact ./server-artifact
             - name: Upload Curseforge Asset
               uses: actions/upload-release-asset@v1
               env:
