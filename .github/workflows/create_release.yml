@@ -114,9 +114,11 @@ jobs:
                 mkdir -p ./server
                 unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
             - name: Zip Curseforge Directory
-              run: zip -r curseforge.zip ./curseforge/*
+              run: zip -r curseforge.zip ./curseforge/* ./curseforge/.*  # Include hidden files
+              
             - name: Zip Server Directory
-              run: zip -r server.zip ./server/*
+              run: zip -r server.zip ./server/* ./server/.*  # Include hidden files
+              
             - name: Upload Curseforge Asset
               uses: actions/upload-release-asset@v1
               env:
