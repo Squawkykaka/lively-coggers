@@ -8,16 +8,20 @@ permissions:
 jobs:
     Increment-Version:
         runs-on: ubuntu-latest
+        outputs:
+            new_version: ${{ steps.increment_version.outputs.new_version }}
         steps:
             - name: Check out repository code
               uses: actions/checkout@v4
             - name: Increment version in pakku.json
+              id: increment_version
               run: |
                 current_version=$(jq -r '.version' pakku.json)
                 IFS='.' read -r -a version_parts <<< "$current_version"
                 version_parts[2]=$((version_parts[2] + 1))
-                new_version="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
+                new_version="${version_parts[0]}.${version_parts[1]}.$(printf "%d" ${version_parts[2]})"
                 jq --arg new_version "$new_version" '.version = $new_version' pakku.json > pakku.tmp && mv pakku.tmp pakku.json
+                echo "::set-output name=new_version::$new_version"
             - name: Commit and push changes
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -27,7 +31,6 @@ jobs:
                 git add pakku.json
                 git commit -m "Increment version to $new_version"
                 git push
-
 
     Build-Minecraft-Modpack:
         runs-on: ubuntu-latest
@@ -61,6 +64,7 @@ jobs:
     Create-Release:
         name: Create Release
         runs-on: ubuntu-latest
+        needs: Increment-Version
         steps:
           - name: Checkout code
             uses: actions/checkout@v2
@@ -70,16 +74,15 @@ jobs:
             env:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
             with:
-              tag_name: ${{ github.ref }}
-              release_name: Release ${{ github.ref }}
+              tag_name: ${{ needs.Increment-Version.outputs.new_version }}
+              release_name: Release ${{ needs.Increment-Version.outputs.new_version }}
               body: |
                 Changes in this Release
                 ## Added mods:
-                    - etc
+                - etc
                 ## Removed mods:
-                    - etc
+                - etc
                 ## Other changes
-                    - etc
-
+                - etc
               draft: true
               prerelease: true
