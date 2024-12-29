@@ -1,10 +1,10 @@
 {
-    "name": "Lively Coggers",
-    "version": "0.2.3",
-    "description": "A basic modpack used for my smp, with mods well integrated",
-    "author": "Squawkykaka",
-    "overrides": [
-        "configureddefaults",
-        "kubejs"
-    ]
+  "name": "Lively Coggers",
+  "version": "0.2.4",
+  "description": "A basic modpack used for my smp, with mods well integrated",
+  "author": "Squawkykaka",
+  "overrides": [
+    "configureddefaults",
+    "kubejs"
+  ]
 }
