@@ -21,7 +21,7 @@ jobs:
                 version_parts[2]=$((version_parts[2] + 1))
                 new_version="${version_parts[0]}.${version_parts[1]}.$(printf "%d" ${version_parts[2]})"
                 jq --arg new_version "$new_version" '.version = $new_version' pakku.json > pakku.tmp && mv pakku.tmp pakku.json
-                echo "::set-output name=new_version::$new_version"
+                echo "new_version=$new_version" >> $GITHUB_OUTPUT
             - name: Commit and push changes
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
