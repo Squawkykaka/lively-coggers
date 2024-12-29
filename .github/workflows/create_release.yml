@@ -64,7 +64,7 @@ jobs:
     Create-Release:
         name: Create Release
         runs-on: ubuntu-latest
-        needs: Increment-Version
+        needs: Build-Minecraft-Modpack
         outputs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
         steps:
@@ -81,11 +81,11 @@ jobs:
               body: |
                 Changes in this Release
                 ## Added mods:
-                - etc
+                    - etc
                 ## Removed mods:
-                - etc
+                    - etc
                 ## Other changes
-                - etc
+                    - etc
               draft: true
               prerelease: true
 
@@ -98,17 +98,27 @@ jobs:
               uses: actions/download-artifact@v4
               with:
                 name: curseforge-artifact
+                path: ./curseforge-artifact
             - name: Download the server artifact
               uses: actions/download-artifact@v4
               with:
                 name: server-artifact
+                path: ./server-artifact
             - name: Upload Curseforge Asset
-              id: upload-release-asset
               uses: actions/upload-release-asset@v1
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: ./curseforge-artifact
+                asset_path: ./curseforge-artifact/curseforge.zip
                 asset_name: curseforge.zip
+                asset_content_type: application/zip
+            - name: Upload Server Asset
+              uses: actions/upload-release-asset@v1
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                upload_url: ${{ needs.Create-Release.outputs.upload_url }}
+                asset_path: ./server-artifact/server.zip
+                asset_name: server.zip
                 asset_content_type: application/zip
