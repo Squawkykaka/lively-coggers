@@ -25,7 +25,7 @@
          'sophisticatedbackpacks:advanced_feeding_upgrade', 'sophisticatedbackpacks:advanced_magnet_upgrade', 
          'sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:advanced_pickup_upgrade', 
          'sophisticatedbackpacks:advanced_pickup_upgrade', 'sophisticatedbackpacks:filter_upgrade',
-         'sophisticatedbackpacks:pickup_upgrade'],
+         'sophisticatedbackpacks:pickup_upgrade', "sophisticatedbackpacks:smithing_upgrade"],
          'sophisticatedbackpacks:upgrade_base',
          'sophisticatedbackpacks:backpack',
          'sophisticatedbackpacks:netherite_backpack',
@@ -37,6 +37,6 @@
          'create_central_kitchen:pumpkin_cake_slice', 'create_central_kitchen:sweet_berry_cake_slice',
          'create_central_kitchen:creative_tab_icon', 'create_central_kitchen:yucca_cake_slice'],
          'toms_storage:ts.storage_terminal',
-         "farmersdelight:wheat_dough"
+         "farmersdelight:wheat_dough", "createdeco:netherite_sheet"
 
    ] 

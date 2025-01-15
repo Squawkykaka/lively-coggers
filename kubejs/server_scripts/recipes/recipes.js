@@ -145,6 +145,16 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.recipes(event => {
+  event.shaped("sophisticatedbackpacks:everlasting_upgrade", [
+    'SBS',
+    'BNB',
+    'SBS'
+  ], {
+    S: "create:sturdy_sheet",
+    B: "create:brass_ingot",
+    N: "minecraft:nether_star"
+  })
+
   event.shaped("sophisticatedbackpacks:tool_swapper_upgrade", [
     'BPB',
     'SLA',
@@ -159,12 +169,12 @@ ServerEvents.recipes(event => {
   })
 
   event.shaped("sophisticatedbackpacks:jukebox_upgrade", [
-    'PDP',
-    'PLP',
-    'PPP'
+    ' A ',
+    'LJL',
+    ' L '
   ], {
-    P: "#minecraft:planks",
-    D: "minecraft:diamond",
+    A: "create:andesite_alloy",
+    J: "minecraft:jukebox",
     L: "minecraft:leather"
   })
 
