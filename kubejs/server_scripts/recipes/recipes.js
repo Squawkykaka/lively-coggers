@@ -159,12 +159,12 @@ ServerEvents.recipes(event => {
   })
 
   event.shaped("sophisticatedbackpacks:jukebox_upgrade", [
-    'PDP',
-    'PLP',
-    'PPP'
+    ' A ',
+    'LJL',
+    ' L '
   ], {
-    P: "#minecraft:planks",
-    D: "minecraft:diamond",
+    A: "create:andesite_alloy",
+    J: "minecraft:jukebox",
     L: "minecraft:leather"
   })
 
