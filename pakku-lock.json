@@ -3973,6 +3973,42 @@
             ]
         },
         {
+            "pakku_id": "h6PkI2cNvBw0KNJ9",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ping"
+            },
+            "name": {
+                "curseforge": "Ping"
+            },
+            "id": {
+                "curseforge": "222967"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Ping-1.20.1-1.10.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5658/772/Ping-1.20.1-1.10.2.jar",
+                    "id": "5658772",
+                    "parent_id": "222967",
+                    "hashes": {
+                        "sha1": "c3d7a0e483dc02876dbd658dfdb4f2d1132d8310",
+                        "md5": "ecdc2237c6e0c7640f0f5d16cf8ac79a"
+                    },
+                    "required_dependencies": [],
+                    "size": 78089,
+                    "date_published": "2024-08-24T12:09:16.463Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "lq0cUnvWws0oNkmo",
             "type": "MOD",
             "side": "BOTH",
@@ -4117,6 +4153,7 @@
             "id": {
                 "curseforge": "585406"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
