@@ -25,7 +25,7 @@
          'sophisticatedbackpacks:advanced_feeding_upgrade', 'sophisticatedbackpacks:advanced_magnet_upgrade', 
          'sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:advanced_pickup_upgrade', 
          'sophisticatedbackpacks:advanced_pickup_upgrade', 'sophisticatedbackpacks:filter_upgrade',
-         'sophisticatedbackpacks:pickup_upgrade'],
+         'sophisticatedbackpacks:pickup_upgrade', "sophisticatedbackpacks:smithing_upgrade"],
          'sophisticatedbackpacks:upgrade_base',
          'sophisticatedbackpacks:backpack',
          'sophisticatedbackpacks:netherite_backpack',
