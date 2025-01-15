@@ -24,6 +24,8 @@ resourcepacks/
 /build/
 /fancymenu_data/
 /.bobby/
+/xaero*
+/Xaero*
 
 patchouli_data.json
 emi.json
