@@ -1,10 +1,6 @@
 ## Added mods:
-- MmmMmmMmmMmm (Target Dummy)
-
-## Removed mods
-- ping
+- CC: Bridge
 
 ## Oher changes:
-- 1
-- 2
-- 3
+- Re-added computercraft as its no longer on curseforge
+- Changed best tool for toms storage to be pickaxe
