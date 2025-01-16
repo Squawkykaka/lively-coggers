@@ -6,134 +6,192 @@ permissions:
   contents: write
 
 jobs:
-    Increment-Version:
-        runs-on: ubuntu-latest
-        outputs:
-            new_version: ${{ steps.increment_version.outputs.new_version }}
-        steps:
-            - name: Check out repository code
-              uses: actions/checkout@v4
-            - name: Increment version in pakku.json
-              id: increment_version
-              run: |
-                current_version=$(jq -r '.version' pakku.json)
-                IFS='.' read -r -a version_parts <<< "$current_version"
-                version_parts[2]=$((version_parts[2] + 1))
-                new_version="${version_parts[0]}.${version_parts[1]}.$(printf "%d" ${version_parts[2]})"
-                jq --arg new_version "$new_version" '.version = $new_version' pakku.json > pakku.tmp && mv pakku.tmp pakku.json
-                echo "new_version=$new_version" >> $GITHUB_OUTPUT
-            - name: Commit and push changes
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: |
-                git config --global user.name 'github-actions'
-                git config --global user.email 'github-actions@github.com'
-                git add pakku.json
-                git commit -m "Increment version to $new_version"
-                git push
+  create-version:
+    name: Increment Version
+    runs-on: ubuntu-latest
+    outputs:
+      new_version: ${{ steps.create-version.outputs.new_version }}
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Increment version in pakku.json
+        id: create-version
+        run: |
+          current_version=$(jq -r '.version' pakku.json)
+          IFS='.' read -r -a version_parts <<< "$current_version"
+          version_parts[2]=$((version_parts[2] + 1))
+          new_version="${version_parts[0]}.${version_parts[1]}.$(printf "%d" ${version_parts[2]})"
+          jq --arg new_version "$new_version" '.version = $new_version' pakku.json > pakku.tmp && mv pakku.tmp pakku.json
+          echo "new_version=$new_version" >> $GITHUB_OUTPUT
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add pakku.json
+          git commit -m "Increment version to $new_version"
+          git push
 
-    Build-Minecraft-Modpack:
-        runs-on: ubuntu-latest
-        needs: Increment-Version
-        steps:
-            - name: Check out repository code
-              uses: actions/checkout@v4
-            - name: Set up JDK 21
-              uses: actions/setup-java@v2
-              with:
-                  distribution: 'adopt'
-                  java-version: '21'
-            - name: Setup pakku
-              run: |
-                  wget https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar
-            - name: Export modpack
-              run: java -jar pakku.jar export
-            - name: 'Upload Curseforge Build Artifact'
-              uses: actions/upload-artifact@v4
-              with:
-                name: curseforge-artifact
-                path: ./build/curseforge/
-                retention-days: 5
-            - name: 'Upload Server Build Artifact'
-              uses: actions/upload-artifact@v4
-              with:
-                name: server-artifact
-                path: ./build/serverpack/
-                retention-days: 5
+  build-modpack:
+    name: Build Minecraft Modpack
+    runs-on: ubuntu-latest
+    needs: create-version
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Set up JDK 21
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '21'
+      - name: Setup pakku
+        run: |
+          wget https://github.com/juraj-hrivnak/Pakku/releases/download/v0.21.0/pakku.jar
+      - name: Export modpack
+        run: java -jar pakku.jar export
+      - name: 'Upload Curseforge Build Artifact'
+        uses: actions/upload-artifact@v4
+        with:
+          name: curseforge-artifact
+          path: ./build/curseforge/
+          retention-days: 5
+      - name: 'Upload Server Build Artifact'
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-artifact
+          path: ./build/serverpack/
+          retention-days: 5
 
-    Create-Release:
-        name: Create Release
-        runs-on: ubuntu-latest
-        needs: Increment-Version
-        outputs:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-        steps:
-          - name: Checkout code
-            uses: actions/checkout@v2
-          - name: Create Release
-            id: create_release
-            uses: actions/create-release@v1
-            env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-            with:
-              tag_name: ${{ needs.Increment-Version.outputs.new_version }}
-              release_name: Release ${{ needs.Increment-Version.outputs.new_version }}
-              body: |
-                Changes in this Release
-                ## Added mods:
-                    - etc
-                ## Removed mods:
-                    - etc
-                ## Other changes
-                    - etc
-              draft: true
-              prerelease: true
+  release-modpack:
+    name: Create Release
+    runs-on: ubuntu-latest
+    needs: [build-modpack, create-version]
+    steps:
+      # Wrangle files
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    Upload-Release-Asset:
-        name: Upload Release Asset
-        runs-on: ubuntu-latest
-        needs: [Create-Release, Build-Minecraft-Modpack, Increment-Version]
-        steps:
-            - name: Download the curseforge artifact
-              uses: actions/download-artifact@v4
-              with:
-                name: curseforge-artifact
-                path: ./curseforge-artifact
-            - name: Download the server artifact
-              uses: actions/download-artifact@v4
-              with:
-                name: server-artifact
-                path: ./server-artifact
-            - name: List downloaded files
-              run: ls -R ./curseforge-artifact ./server-artifact
-            - name: Extract Artifacts
-              run: |
-                mkdir -p ./curseforge
-                unzip ./curseforge-artifact/Lively\ Coggers-*.zip -d ./curseforge
+      - name: Download the curseforge artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: curseforge-artifact
+          path: ./curseforge-artifact
+      - name: Download the server artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: server-artifact
+          path: ./server-artifact
 
-                mkdir -p ./server
-                unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
-            - name: Zip Curseforge Directory
-              run: zip -r curseforge.zip ./curseforge/* ./curseforge/.*  # Include hidden files
+      - name: Extract Artifacts
+        run: |
+          mkdir -p ./curseforge
+          unzip ./curseforge-artifact/Lively\ Coggers-*.zip -d ./curseforge
+
+          mkdir -p ./server
+          unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
+
+      - name: Zip Curseforge Directory
+        run: zip -r curseforge.zip ./curseforge/* ./curseforge/.*  # Include hidden files
+      
+      - name: Zip Server Directory
+        run: zip -r server.zip ./server/* ./server/.*  # Include hidden files
+
+      # Create Release
+      - uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          github-tag: ${{ needs.create-version.outputs.new_version }}
+          github-generate-changelog: true
+          github-draft: true
+          github-prerelease: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          files: |
+            curseforge.zip
+            server.zip
+            
+          name: Lively Coggers ${{ needs.create-version.outputs.new_version }}
+          version: ${{ needs.create-version.outputs.new_version }}
+          version-type: prerelease
+          changelog-file: CHANGELOG.*
+
+          loaders: forge
+          game-versions: 1.20.1
+
+
+
+
+    # Create-Release:
+    #     name: Create Release
+    #     runs-on: ubuntu-latest
+    #     needs: Increment-Version
+    #     outputs:
+    #       upload_url: ${{ steps.create_release.outputs.upload_url }}
+    #     steps:
+    #       - name: Checkout code
+    #         uses: actions/checkout@v2
+    #       - name: Create Release
+    #         id: create_release
+    #         uses: actions/create-release@v1
+    #         env:
+    #           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+    #         with:
+    #           tag_name: ${{ needs.Increment-Version.outputs.new_version }}
+    #           release_name: Release ${{ needs.Increment-Version.outputs.new_version }}
+    #           body: |
+    #             Changes in this Release
+    #             ## Added mods:
+    #                 - etc
+    #             ## Removed mods:
+    #                 - etc
+    #             ## Other changes
+    #                 - etc
+    #           draft: true
+    #           prerelease: true
+
+    # Upload-Release-Asset:
+    #     name: Upload Release Asset
+    #     runs-on: ubuntu-latest
+    #     needs: [Create-Release, Build-Minecraft-Modpack, Increment-Version]
+    #     steps:
+    #         - name: Download the curseforge artifact
+    #           uses: actions/download-artifact@v4
+    #           with:
+    #             name: curseforge-artifact
+    #             path: ./curseforge-artifact
+    #         - name: Download the server artifact
+    #           uses: actions/download-artifact@v4
+    #           with:
+    #             name: server-artifact
+    #             path: ./server-artifact
+    #         - name: Extract Artifacts
+    #           run: |
+    #             mkdir -p ./curseforge
+    #             unzip ./curseforge-artifact/Lively\ Coggers-*.zip -d ./curseforge
+
+    #             mkdir -p ./server
+    #             unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
+    #         - name: Zip Curseforge Directory
+    #           run: zip -r curseforge.zip ./curseforge/* ./curseforge/.*  # Include hidden files
               
-            - name: Zip Server Directory
-              run: zip -r server.zip ./server/* ./server/.*  # Include hidden files
+    #         - name: Zip Server Directory
+    #           run: zip -r server.zip ./server/* ./server/.*  # Include hidden files
               
-            - name: Upload Curseforge Asset
-              uses: actions/upload-release-asset@v1
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              with:
-                upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: curseforge.zip
-                asset_name: curseforge-${{ needs.Increment-Version.outputs.new_version }}.zip
-                asset_content_type: application/zip
-            - name: Upload Server Asset
-              uses: actions/upload-release-asset@v1
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              with:
-                upload_url: ${{ needs.Create-Release.outputs.upload_url }}
-                asset_path: server.zip
-                asset_name: server-${{ needs.Increment-Version.outputs.new_version }}.zip
-                asset_content_type: application/zip
+    #         - name: Upload Curseforge Asset
+    #           uses: actions/upload-release-asset@v1
+    #           env:
+    #             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #           with:
+    #             upload_url: ${{ needs.Create-Release.outputs.upload_url }}
+    #             asset_path: curseforge.zip
+    #             asset_name: curseforge-${{ needs.Increment-Version.outputs.new_version }}.zip
+    #             asset_content_type: application/zip
+    #         - name: Upload Server Asset
+    #           uses: actions/upload-release-asset@v1
+    #           env:
+    #             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #           with:
+    #             upload_url: ${{ needs.Create-Release.outputs.upload_url }}
+    #             asset_path: server.zip
+    #             asset_name: server-${{ needs.Increment-Version.outputs.new_version }}.zip
+    #             asset_content_type: application/zip
