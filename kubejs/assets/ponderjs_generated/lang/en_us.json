@@ -1,1 +1,5 @@
-{}
+{
+  "kubejs.ponder.tag.toms_storage": "Toms Storage",
+  "kubejs.ponder.tag.toms_storage.description": "Blocks and items use to make a storage system",
+  "kubejs.ponder.crafting_terminal.header": "How to set up a storage system"
+}
