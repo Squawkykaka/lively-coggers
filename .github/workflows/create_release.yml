@@ -6,7 +6,7 @@ permissions:
   contents: write
 
 jobs:
-  version:
+  create-version:
     name: Increment Version
     runs-on: ubuntu-latest
     outputs:
@@ -33,10 +33,10 @@ jobs:
           git commit -m "Increment version to $new_version"
           git push
 
-  build:
+  build-modpack:
     name: Build Minecraft Modpack
     runs-on: ubuntu-latest
-    needs: Increment-Version
+    needs: create-version
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
@@ -63,10 +63,10 @@ jobs:
           path: ./build/serverpack/
           retention-days: 5
 
-  release:
+  release-modpack:
     name: Create Release
     runs-on: ubuntu-latest
-    needs: [Build-Minecraft-Modpack, Increment-Version]
+    needs: [build-modpack, create-version]
     steps:
       # Wrangle files
       - name: Checkout code
