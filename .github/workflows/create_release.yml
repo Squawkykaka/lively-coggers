@@ -10,12 +10,12 @@ jobs:
     name: Increment Version
     runs-on: ubuntu-latest
     outputs:
-      new_version: ${{ steps.increment_version.outputs.new_version }}
+      new_version: ${{ steps.create-version.outputs.new_version }}
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Increment version in pakku.json
-        id: increment_version
+        id: create-version
         run: |
           current_version=$(jq -r '.version' pakku.json)
           IFS='.' read -r -a version_parts <<< "$current_version"
@@ -100,7 +100,7 @@ jobs:
       # Create Release
       - uses: Kir-Antipov/mc-publish@v3.3
         with:
-          github-tag: ${{ needs.Increment-Version.outputs.new_version }}
+          github-tag: ${{ needs.create-version.outputs.new_version }}
           github-generate-changelog: true
           github-draft: true
           github-prerelease: true
@@ -110,8 +110,8 @@ jobs:
             curseforge.zip
             server.zip
             
-          name: Lively Coggers ${{ needs.Increment-Version.outputs.new_version }}
-          version: ${{ needs.Increment-Version.outputs.new_version }}
+          name: Lively Coggers ${{ needs.create-version.outputs.new_version }}
+          version: ${{ needs.create-version.outputs.new_version }}
           version-type: prerelease
           changelog-file: CHANGELOG.*
 
