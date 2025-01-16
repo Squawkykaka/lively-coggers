@@ -1,0 +1,20 @@
+on:
+  release:
+      types: [published]
+
+jobs:
+  notify_discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get latest tag
+        id: get-latest-tag
+        uses: actions-ecosystem/action-get-latest-tag@v1
+
+      - name: send custom message with args
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.WEBHOOK_ID }}
+          webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+          message: |
+            ## New Release! Lively Coggers ${{ steps.get-latest-tag.outputs.tag }}
+            **Download:** [Github Release](https://github.com/Squawkykaka/lively-coggers/releases/tag/${{ steps.get-latest-tag.outputs.tag }})
