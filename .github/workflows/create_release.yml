@@ -79,9 +79,9 @@ jobs:
           mkdir -p ./server
           unzip ./server-artifact/Lively\ Coggers-*.zip -d ./server
       - name: Zip Curseforge Directory
-        run: zip -r curseforge.zip ./curseforge/* ./curseforge/.*  # Include hidden files
+        run: zip -r curseforge-${{ needs.get-version.outputs.new_version }}.zip ./curseforge/* ./curseforge/.*  # Include hidden files
       - name: Zip Server Directory
-        run: zip -r server.zip ./server/* ./server/.*  # Include hidden files
+        run: zip -r server-${{ needs.get-version.outputs.new_version }}.zip ./server/* ./server/.*  # Include hidden files
       - uses: Kir-Antipov/mc-publish@v3.3
         with:
           github-tag: ${{ needs.get-version.outputs.new_version }}
@@ -90,8 +90,8 @@ jobs:
           github-prerelease: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
           files: |
-            curseforge.zip
-            server.zip
+            curseforge-${{ needs.get-version.outputs.new_version }}.zip
+            server-${{ needs.get-version.outputs.new_version }}.zip
           name: Lively Coggers ${{ needs.get-version.outputs.new_version }}
           version: ${{ needs.get-version.outputs.new_version }}
           version-type: prerelease
