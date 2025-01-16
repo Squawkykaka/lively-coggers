@@ -75,7 +75,7 @@
         {
             "pakku_id": "wId4CDmS6gtyPM7J",
             "pakku_links": [
-                "WhvaMEcn1ZGZx2p4"
+                "zpZRM2afr4Go64gz"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -561,19 +561,16 @@
             ]
         },
         {
-            "pakku_id": "WhvaMEcn1ZGZx2p4",
+            "pakku_id": "zpZRM2afr4Go64gz",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "curseforge": "cc-tweaked",
                 "modrinth": "cc-tweaked"
             },
             "name": {
-                "curseforge": "CC: Tweaked",
                 "modrinth": "CC: Tweaked"
             },
             "id": {
-                "curseforge": "282001",
                 "modrinth": "gu7yAYhd"
             },
             "files": [
@@ -597,27 +594,76 @@
                     "required_dependencies": [],
                     "size": 3036894,
                     "date_published": "2025-01-14T22:00:45.264520Z"
-                },
+                }
+            ]
+        },
+        {
+            "pakku_id": "PVnvsW2ssrN0AXpj",
+            "pakku_links": [
+                "ogXU4VAy8CTu8Omh",
+                "zpZRM2afr4Go64gz"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "cccbridge",
+                "modrinth": "cccbridge"
+            },
+            "name": {
+                "curseforge": "CC:C Bridge",
+                "modrinth": "CC:C Bridge"
+            },
+            "id": {
+                "curseforge": "656214",
+                "modrinth": "fXt291FO"
+            },
+            "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cc-tweaked-1.20.1-forge-1.113.1.jar",
+                    "file_name": "cccbridge-mc1.20.1-forge-1.6.3.jar",
                     "mc_versions": [
+                        "1.20.2",
                         "1.20.1"
                     ],
                     "loaders": [
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5714/507/cc-tweaked-1.20.1-forge-1.113.1.jar",
-                    "id": "5714507",
-                    "parent_id": "282001",
+                    "url": "https://edge.forgecdn.net/files/4864/664/cccbridge-mc1.20.1-forge-1.6.3.jar",
+                    "id": "4864664",
+                    "parent_id": "656214",
                     "hashes": {
-                        "sha1": "ca74a2ad65f149e7465e849b479abec863a82bf1",
-                        "md5": "92b7b114f5ee6067b4f0eff1636817f2"
+                        "sha1": "78a03348b3c1f26170cd1171b3a8ca8fbb34a272",
+                        "md5": "8954495d581577028c662b6bcf4bb5e2"
                     },
                     "required_dependencies": [],
-                    "size": 3063695,
-                    "date_published": "2024-09-11T19:12:12.627Z"
+                    "size": 289381,
+                    "date_published": "2023-11-13T16:49:26.237Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "cccbridge-mc1.20.1-forge-1.6.3.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fXt291FO/versions/sPKVzUaW/cccbridge-mc1.20.1-forge-1.6.3.jar",
+                    "id": "sPKVzUaW",
+                    "parent_id": "fXt291FO",
+                    "hashes": {
+                        "sha512": "aa3b5464a1038d94de718583d035def8a9944032cb5de177cbef285ed49ca891c10c7095c5db1840eb3d4f4828f083056d1e02fafcdbb2c4ca771093be5923eb",
+                        "sha1": "78a03348b3c1f26170cd1171b3a8ca8fbb34a272"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "gu7yAYhd"
+                    ],
+                    "size": 289381,
+                    "date_published": "2023-11-13T16:44:59.790127Z"
                 }
             ]
         },
