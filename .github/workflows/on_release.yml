@@ -6,6 +6,9 @@ jobs:
   notify_discord:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Get latest tag
         id: get-latest-tag
         uses: actions-ecosystem/action-get-latest-tag@v1
