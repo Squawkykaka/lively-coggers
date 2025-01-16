@@ -1,12 +1,8 @@
 ## Added mods:
-- 1
-- 2
-- 3
+- MmmMmmMmmMmm (Target Dummy)
 
 ## Removed mods
-- 1
-- 2
-- 3
+- ping
 
 ## Oher changes:
 - 1

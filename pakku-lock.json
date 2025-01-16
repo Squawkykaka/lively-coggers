@@ -3446,6 +3446,74 @@
             ]
         },
         {
+            "pakku_id": "xp0qiGnIVxixo99S",
+            "pakku_links": [
+                "GPC4CfIKgN0hJvjA"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "mmmmmmmmmmmm",
+                "modrinth": "mmmmmmmmmmmm"
+            },
+            "name": {
+                "curseforge": "MmmMmmMmmMmm (Target Dummy)",
+                "modrinth": "MmmMmmMmmMmm"
+            },
+            "id": {
+                "curseforge": "225738",
+                "modrinth": "Adega8YN"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dummmmmmy-1.20-2.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5737/40/dummmmmmy-1.20-2.0.2.jar",
+                    "id": "5737040",
+                    "parent_id": "225738",
+                    "hashes": {
+                        "sha1": "c3418da11a2679fb1900aa3fc93342c6f1a5ea02",
+                        "md5": "5ed70d08eae8d82ea46de8384c48d170"
+                    },
+                    "required_dependencies": [
+                        "499980"
+                    ],
+                    "size": 360106,
+                    "date_published": "2024-09-19T13:22:43.320Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "dummmmmmy-1.20-2.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Adega8YN/versions/NRqFuyt1/dummmmmmy-1.20-2.0.2.jar",
+                    "id": "NRqFuyt1",
+                    "parent_id": "Adega8YN",
+                    "hashes": {
+                        "sha512": "67270a6b60e499c6b166f1fbed71ccf56b913c9497a8c5629a5d1796777fe380a317a6d32f3270b51b1573ad755e495d29c37273998e8326483890d5c0c89fa9",
+                        "sha1": "c3418da11a2679fb1900aa3fc93342c6f1a5ea02"
+                    },
+                    "required_dependencies": [
+                        "twkfQtEc"
+                    ],
+                    "size": 360106,
+                    "date_published": "2024-09-19T13:22:48.246704Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "P8zn5AjgHvonfeUl",
             "type": "MOD",
             "side": "BOTH",
@@ -3503,6 +3571,69 @@
                     "required_dependencies": [],
                     "size": 786751,
                     "date_published": "2024-12-26T20:47:00.220Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GPC4CfIKgN0hJvjA",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "moonlight",
+                "curseforge": "selene"
+            },
+            "name": {
+                "modrinth": "Moonlight Lib",
+                "curseforge": "Moonlight Lib"
+            },
+            "id": {
+                "modrinth": "twkfQtEc",
+                "curseforge": "499980"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "moonlight-1.20-2.13.49-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/z5GvG5iM/moonlight-1.20-2.13.49-forge.jar",
+                    "id": "z5GvG5iM",
+                    "parent_id": "twkfQtEc",
+                    "hashes": {
+                        "sha512": "5e5837c9c7a47b9d25c44668784393dcdf0118a7ec47b5b73a64deef5dc380b20111043a99c9cc5b31400c695fd176f44be938b66a1788213fd3c728d753923a",
+                        "sha1": "dd368d362f07a1bf02aedd1280180ea1b841424a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1222848,
+                    "date_published": "2025-01-13T22:01:40.704148Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "moonlight-1.20-2.13.49-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6084/796/moonlight-1.20-2.13.49-forge.jar",
+                    "id": "6084796",
+                    "parent_id": "499980",
+                    "hashes": {
+                        "sha1": "dd368d362f07a1bf02aedd1280180ea1b841424a",
+                        "md5": "efce6750bf016d70a4b52022a6f75dbe"
+                    },
+                    "required_dependencies": [],
+                    "size": 1222848,
+                    "date_published": "2025-01-13T22:01:25.950Z"
                 }
             ]
         },
@@ -3969,42 +4100,6 @@
                     ],
                     "size": 401032,
                     "date_published": "2024-08-21T12:25:46.019010Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "h6PkI2cNvBw0KNJ9",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ping"
-            },
-            "name": {
-                "curseforge": "Ping"
-            },
-            "id": {
-                "curseforge": "222967"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Ping-1.20.1-1.10.2.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5658/772/Ping-1.20.1-1.10.2.jar",
-                    "id": "5658772",
-                    "parent_id": "222967",
-                    "hashes": {
-                        "sha1": "c3d7a0e483dc02876dbd658dfdb4f2d1132d8310",
-                        "md5": "ecdc2237c6e0c7640f0f5d16cf8ac79a"
-                    },
-                    "required_dependencies": [],
-                    "size": 78089,
-                    "date_published": "2024-08-24T12:09:16.463Z"
                 }
             ]
         },
