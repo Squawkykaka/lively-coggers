@@ -28,6 +28,7 @@ resourcepacks/
 /Xaero*
 /node_modules/
 
+
 patchouli_data.json
 emi.json
 knownkeys.txt
@@ -39,3 +40,4 @@ observable_announce
 servers.dat
 servers.dat_old
 icon.png
+/kubejs/config/probejs.json
