@@ -2,6 +2,8 @@ on:
   release:
       types: [published]
 
+name: Notify Discord
+
 jobs:
   notify_discord:
     runs-on: ubuntu-latest
