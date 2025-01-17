@@ -1,0 +1,8 @@
+{
+  "name": "lively-coggers",
+  "author": "Squawkykaka",
+  "dependencies": {
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2"
+  }
+}
