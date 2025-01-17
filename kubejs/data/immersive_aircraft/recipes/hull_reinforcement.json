@@ -1,8 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "IHI"
-  ],
+  "pattern": ["IHI"],
   "key": {
     "H": [
       {

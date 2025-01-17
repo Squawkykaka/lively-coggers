@@ -2,6 +2,10 @@
   "type": "computercraft:impostor_shapeless",
   "category": "redstone",
   "group": "computercraft:disk",
-  "ingredients": [{"item": "create:polished_rose_quartz"}, {"item": "minecraft:paper"}, {"item": "minecraft:brown_dye"}],
-  "result": {"item": "computercraft:disk", "nbt": "{Color:8349260}"}
+  "ingredients": [
+    { "item": "create:polished_rose_quartz" },
+    { "item": "minecraft:paper" },
+    { "item": "minecraft:brown_dye" }
+  ],
+  "result": { "item": "computercraft:disk", "nbt": "{Color:8349260}" }
 }

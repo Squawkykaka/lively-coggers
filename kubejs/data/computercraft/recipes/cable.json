@@ -1,7 +1,10 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "redstone",
-  "ingredients": [{"tag": "forge:dusts/redstone"}, {"item": "minecraft:dried_kelp"}],
-  "result": {"count": 4, "item": "computercraft:cable"},
+  "ingredients": [
+    { "tag": "forge:dusts/redstone" },
+    { "item": "minecraft:dried_kelp" }
+  ],
+  "result": { "count": 4, "item": "computercraft:cable" },
   "show_notification": true
 }

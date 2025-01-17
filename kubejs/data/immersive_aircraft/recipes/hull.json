@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "LIL",
-    "LIL"
-  ],
+  "pattern": ["LIL", "LIL"],
   "key": {
     "L": [
       {

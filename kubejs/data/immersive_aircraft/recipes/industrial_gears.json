@@ -1,8 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ICI"
-  ],
+  "pattern": ["ICI"],
   "key": {
     "C": [
       {

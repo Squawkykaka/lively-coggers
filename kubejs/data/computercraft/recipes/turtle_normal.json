@@ -18,12 +18,7 @@
       "item": "create:encased_fan"
     }
   },
-  "pattern": [
-    " H ",
-    "BOB",
-    " C ",
-    " F "
-  ],
+  "pattern": [" H ", "BOB", " C ", " F "],
   "result": {
     "item": "computercraft:turtle_normal"
   }
