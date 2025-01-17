@@ -82,17 +82,18 @@ ServerEvents.recipes((event) => {
     },
   );
 
-  event.recipes.create.mechanical_crafting(
-    "toms_storage:ts.crafting_terminal",
-    [" D ", "DTD", "PML", "SZS"],
+  event.recipes.minecraft.crafting_shaped(
+    "toms_storage:ts.crafting_terminal", [ 
+      " D ", 
+      "EBE", 
+      "SCS"
+    ],
     {
-      D: "diamond",
+      D: "create:display_link",
       S: "create:sturdy_sheet",
-      M: "minecraft:crafting_table",
-      T: "create:display_board",
-      P: "create:precision_mechanism",
-      L: "create:linked_controller",
-      Z: "create:display_link",
+      E: "create:electron_tube",
+      B: "create:display_board",
+      C: "create:linked_controller"
     },
   );
   event.recipes.create.mechanical_crafting(
