@@ -34,11 +34,6 @@ ServerEvents.recipes((event) => {
   );
   event.replaceInput(
     { id: "toms_storage:trim" },
-    "minecraft:chest",
-    "create:item_vault",
-  );
-  event.replaceInput(
-    { id: "toms_storage:trim" },
     "#minecraft:planks",
     "create:andesite_alloy",
   );
