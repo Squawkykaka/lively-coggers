@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " B ",
-    "BPB",
-    " B "
-  ],
+  "pattern": [" B ", "BPB", " B "],
   "key": {
     "B": [
       {

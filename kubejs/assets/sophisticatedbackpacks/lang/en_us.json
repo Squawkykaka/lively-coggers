@@ -1,14 +1,14 @@
 {
-    "block.sophisticatedbackpacks.iron_backpack": "Andesite Backpack",
-    "block.sophisticatedbackpacks.gold_backpack": "Brass Backpack",
-    "block.sophisticatedbackpacks.diamond_backpack": "Sturdy Backpack",
+  "block.sophisticatedbackpacks.iron_backpack": "Andesite Backpack",
+  "block.sophisticatedbackpacks.gold_backpack": "Brass Backpack",
+  "block.sophisticatedbackpacks.diamond_backpack": "Sturdy Backpack",
 
-    "item.sophisticatedbackpacks.iron_backpack": "Andesite Backpack",
-    "item.sophisticatedbackpacks.gold_backpack": "Brass Backpack",
-    "item.sophisticatedbackpacks.diamond_backpack": "Sturdy Backpack",
+  "item.sophisticatedbackpacks.iron_backpack": "Andesite Backpack",
+  "item.sophisticatedbackpacks.gold_backpack": "Brass Backpack",
+  "item.sophisticatedbackpacks.diamond_backpack": "Sturdy Backpack",
 
-    "item.immersive_aircraft.nether_engine": "Combustion Engine",
-    "item.immersive_aircraft.eco_engine": "Steam Engine",
+  "item.immersive_aircraft.nether_engine": "Combustion Engine",
+  "item.immersive_aircraft.eco_engine": "Steam Engine",
 
-    "item.sophisticatedbackpacks.advanced_refill_upgrade": "Refill Upgrade"
+  "item.sophisticatedbackpacks.advanced_refill_upgrade": "Refill Upgrade"
 }

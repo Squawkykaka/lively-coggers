@@ -33,13 +33,7 @@
       "tag": "forge:plates/copper"
     }
   },
-  "pattern": [
-    "  I  ",
-    " VEL ",
-    "IPMBG",
-    " TSS ",
-    "  I  "
-  ],
+  "pattern": ["  I  ", " VEL ", "IPMBG", " TSS ", "  I  "],
   "result": {
     "item": "computercraft:computer_normal"
   }

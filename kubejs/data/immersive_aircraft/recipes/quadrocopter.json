@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "PAP",
-    " S ",
-    "PEP"
-  ],
+  "pattern": ["PAP", " S ", "PEP"],
   "key": {
     "E": [
       {

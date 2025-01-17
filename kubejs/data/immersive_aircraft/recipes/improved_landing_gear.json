@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SI",
-    "B "
-  ],
+  "pattern": ["SI", "B "],
   "key": {
     "B": [
       {

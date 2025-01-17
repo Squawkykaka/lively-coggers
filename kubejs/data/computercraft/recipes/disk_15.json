@@ -3,9 +3,9 @@
   "category": "redstone",
   "group": "computercraft:disk",
   "ingredients": [
-    {"item": "create:polished_rose_quartz"},
-    {"item": "minecraft:paper"},
-    {"item": "minecraft:orange_dye"}
+    { "item": "create:polished_rose_quartz" },
+    { "item": "minecraft:paper" },
+    { "item": "minecraft:orange_dye" }
   ],
-  "result": {"item": "computercraft:disk", "nbt": "{Color:15905331}"}
+  "result": { "item": "computercraft:disk", "nbt": "{Color:15905331}" }
 }
