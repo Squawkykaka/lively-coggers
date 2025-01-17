@@ -8,6 +8,17 @@
   "prettier": {
     "singleQuote": false,
     "tabWidth": 2,
-    "semi": true
+    "semi": true,
+    "overrides": [
+      {
+        "files": "**/recipes/*.json",
+        "options": {
+          "printWidth": 80,
+          "trailingComma": "none",
+          "bracketSpacing": true,
+          "jsonRecursiveSort": false
+        }
+      }
+    ]
   }
 }
