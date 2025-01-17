@@ -1,8 +1,3 @@
-## Added mods:
-
-- CC: Bridge
-
 ## Oher changes:
-
-- Re-added computercraft as its no longer on curseforge
-- Changed best tool for toms storage to be pickaxe
+- Added a custom ponder scene for the inventory connector
+- Added linting action to the ci/cd pipeline
