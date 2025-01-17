@@ -15,8 +15,7 @@
         "options": {
           "printWidth": 80,
           "trailingComma": "none",
-          "bracketSpacing": true,
-          "jsonRecursiveSort": false
+          "bracketSpacing": true
         }
       }
     ]
