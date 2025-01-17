@@ -1,5 +1,12 @@
 {
   "kubejs.ponder.tag.toms_storage": "Toms Storage",
   "kubejs.ponder.tag.toms_storage.description": "Blocks and items use to make a storage system",
-  "kubejs.ponder.crafting_terminal.header": "How to set up a storage system"
+  "kubejs.ponder.crafting_terminal.header": "How to set up a storage system",
+  "kubejs.ponder.crafting_terminal.text_1": "The Inventory Connector is the heart of the storage system. You can only have 1 in every network",
+  "kubejs.ponder.crafting_terminal.text_2": "It can connect to any nearby inventorys and access stored items",
+  "kubejs.ponder.crafting_terminal.text_3": "It also connects through other storages touching to the connector up to 16 blocks away",
+  "kubejs.ponder.crafting_terminal.text_4": "The cable connector allows you to access the combined storage of your system.",
+  "kubejs.ponder.crafting_terminal.text_5": "The crafting terminal is the way players read the storage system and craft items",
+  "kubejs.ponder.crafting_terminal.text_6": "It has to be placed on an inventory connector, or cable connector to work.",
+  "kubejs.ponder.set_replace_modify_tutorial.header": "Set, Replace, Modify."
 }
