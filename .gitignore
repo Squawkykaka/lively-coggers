@@ -26,6 +26,7 @@ resourcepacks/
 /.bobby/
 /xaero*
 /Xaero*
+/node_modules/
 
 patchouli_data.json
 emi.json

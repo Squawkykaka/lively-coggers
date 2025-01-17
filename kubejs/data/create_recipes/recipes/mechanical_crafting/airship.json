@@ -1,11 +1,6 @@
 {
   "type": "create:mechanical_crafting",
-  "pattern": [
-    "SSSSS",
-    " ~ ~ ",
-    " H_EP",
-    " HHH "
-  ],
+  "pattern": ["SSSSS", " ~ ~ ", " H_EP", " HHH "],
   "key": {
     "H": [
       {

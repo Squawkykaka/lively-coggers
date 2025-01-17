@@ -3,8 +3,5 @@
   "version": "dev",
   "description": "A basic modpack used for my smp, with mods well integrated",
   "author": "Squawkykaka",
-  "overrides": [
-    "configureddefaults",
-    "kubejs"
-  ]
+  "overrides": ["configureddefaults", "kubejs"]
 }

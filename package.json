@@ -1,0 +1,24 @@
+{
+  "name": "lively-coggers",
+  "author": "Squawkykaka",
+  "type": "module",
+  "dependencies": {
+    "prettier": "^3.4.2"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "tabWidth": 2,
+    "semi": true,
+    "overrides": [
+      {
+        "files": "**/recipes/*.json",
+        "options": {
+          "printWidth": 80,
+          "trailingComma": "none",
+          "bracketSpacing": true,
+          "jsonRecursiveSort": false
+        }
+      }
+    ]
+  }
+}
