@@ -1004,6 +1004,71 @@
             ]
         },
         {
+            "pakku_id": "TFpKzWwxQI2MYZoY",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "cobblegen",
+                "modrinth": "cobblegen"
+            },
+            "name": {
+                "curseforge": "CobbleGen [Fabric/Forge]",
+                "modrinth": "CobbleGen"
+            },
+            "id": {
+                "curseforge": "581293",
+                "modrinth": "qRogT5Gy"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cobblegen-5.3.14+1.20.1b50-BETA-forge.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6024/952/cobblegen-5.3.14+1.20.1b50-BETA-forge.jar",
+                    "id": "6024952",
+                    "parent_id": "581293",
+                    "hashes": {
+                        "sha1": "66a717aadcea9c2d6f072492a2c5915267a7c658",
+                        "md5": "8f45caa30d18a2e276aee198e6daa3c5"
+                    },
+                    "required_dependencies": [],
+                    "size": 524172,
+                    "date_published": "2024-12-26T15:45:59.473Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "cobblegen-5.3.14+1.20.1b50-BETA-forge.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/qRogT5Gy/versions/72t2iRqA/cobblegen-5.3.14+1.20.1b50-BETA-forge.jar",
+                    "id": "72t2iRqA",
+                    "parent_id": "qRogT5Gy",
+                    "hashes": {
+                        "sha512": "5eecd252c8780158d590dba163dbaa92fa3ea592ce1d434e4df8a70b441ed048e73a915306c5d2241bbe307a43bdabb6edb15b05fd4ad39684075bff20c8fb60",
+                        "sha1": "66a717aadcea9c2d6f072492a2c5915267a7c658"
+                    },
+                    "required_dependencies": [],
+                    "size": 524172,
+                    "date_published": "2024-12-26T15:46:01.238650Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "48hwXVvT1tMOmMyc",
             "type": "MOD",
             "side": "CLIENT",
