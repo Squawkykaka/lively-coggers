@@ -983,6 +983,59 @@
       ]
     },
     {
+      "pakku_id": "s0BfUEcBLGK3JjUb",
+      "type": "MOD",
+      "side": "CLIENT",
+      "slug": {
+        "curseforge": "crash-assistant",
+        "modrinth": "crash-assistant"
+      },
+      "name": {
+        "curseforge": "Crash Assistant",
+        "modrinth": "Crash Assistant"
+      },
+      "id": {
+        "curseforge": "1154099",
+        "modrinth": "ix1qq8Ux"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "crash_assistant-forge-1.2.18.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["neoforge", "forge"],
+          "release_type": "beta",
+          "url": "https://edge.forgecdn.net/files/6107/920/crash_assistant-forge-1.2.18.jar",
+          "id": "6107920",
+          "parent_id": "1154099",
+          "hashes": {
+            "sha1": "aa8f9775d9f014da654647ec4759a17c0371df1a",
+            "md5": "44cceb10a8399c51016a1e0166aa1783"
+          },
+          "required_dependencies": [],
+          "size": 410819,
+          "date_published": "2025-01-20T20:53:04.740Z"
+        },
+        {
+          "type": "modrinth",
+          "file_name": "crash_assistant-forge-1.2.18.jar",
+          "mc_versions": ["1.19.2", "1.19.3", "1.19.4", "1.20.1"],
+          "loaders": ["forge", "neoforge"],
+          "release_type": "beta",
+          "url": "https://cdn.modrinth.com/data/ix1qq8Ux/versions/myZ6yDR0/crash_assistant-forge-1.2.18.jar",
+          "id": "myZ6yDR0",
+          "parent_id": "ix1qq8Ux",
+          "hashes": {
+            "sha512": "eea5338112b7466ed537ea2d0077932d7141d936c9466cb8c2aed4bb99115b5ecf85fa44b4657bf56d77c000482aeea1a0e9abde2d5eb4f8a4375904da6edaea",
+            "sha1": "aa8f9775d9f014da654647ec4759a17c0371df1a"
+          },
+          "required_dependencies": [],
+          "size": 410819,
+          "date_published": "2025-01-20T20:53:08.091809Z"
+        }
+      ]
+    },
+    {
       "pakku_id": "ogXU4VAy8CTu8Omh",
       "type": "MOD",
       "side": "BOTH",
