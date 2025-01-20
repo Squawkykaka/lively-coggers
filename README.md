@@ -20,3 +20,7 @@ Mainly based around create with some storage mods thrown in and integrated with 
    ```
    this will make autocomplete work in vscode
 9. Open the `.minecraft` folder in VSCode to make your changes.
+
+
+Uses:
+https://legacy.curseforge.com/minecraft/texture-packs/create-energistics
