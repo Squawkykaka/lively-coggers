@@ -36,6 +36,4 @@ ServerEvents.tags("block", (event) => {
     event.remove("minecraft:mineable/axe", block);
     event.add("minecraft:mineable/pickaxe", block);
   });
-
-  event.add("c:hidden_from_recipe_viewers", "ae2:facade")
 });
