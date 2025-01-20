@@ -1464,6 +1464,60 @@
       ]
     },
     {
+      "pakku_id": "5KAxZsu5KgDuCZhb",
+      "pakku_links": ["ogXU4VAy8CTu8Omh"],
+      "type": "MOD",
+      "side": "BOTH",
+      "slug": {
+        "curseforge": "create-power-loader",
+        "modrinth": "create-power-loader"
+      },
+      "name": {
+        "curseforge": "Create: Power Loader",
+        "modrinth": "Create: Power Loader"
+      },
+      "id": {
+        "curseforge": "936020",
+        "modrinth": "wPQ6GgFE"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "create_power_loader-1.5.0-mc1.20.1.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["forge"],
+          "release_type": "release",
+          "url": "https://edge.forgecdn.net/files/5360/743/create_power_loader-1.5.0-mc1.20.1.jar",
+          "id": "5360743",
+          "parent_id": "936020",
+          "hashes": {
+            "sha1": "15c83719f60df6108780ea7106436c639a4b9247",
+            "md5": "fdc8e3662b921771c31057e112e58c26"
+          },
+          "required_dependencies": ["328085"],
+          "size": 223428,
+          "date_published": "2024-05-21T06:56:13.083Z"
+        },
+        {
+          "type": "modrinth",
+          "file_name": "create_power_loader-1.5.0-mc1.20.1.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["forge"],
+          "release_type": "release",
+          "url": "https://cdn.modrinth.com/data/wPQ6GgFE/versions/qLKpNYzC/create_power_loader-1.5.0-mc1.20.1.jar",
+          "id": "qLKpNYzC",
+          "parent_id": "wPQ6GgFE",
+          "hashes": {
+            "sha512": "c22b806fca4fb8339cfd070a788cbe5b4fabe789531bef9fe1034c9ba00b8980cac1d9eddd26b5192ddb77fc9f39d70e6e61fc1117b7303545b6dd2f1969170b",
+            "sha1": "15c83719f60df6108780ea7106436c639a4b9247"
+          },
+          "required_dependencies": ["LNytGWDc"],
+          "size": 223428,
+          "date_published": "2024-05-21T06:56:10.489792Z"
+        }
+      ]
+    },
+    {
       "pakku_id": "kaMgKqGCCPoBV1N8",
       "pakku_links": ["ogXU4VAy8CTu8Omh"],
       "type": "MOD",
