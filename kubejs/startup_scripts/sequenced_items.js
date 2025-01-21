@@ -5,7 +5,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("incomplete_inventory_connector", "create:sequenced_assembly")
     .parentModel("create:block/brass_block");
-  
+
   // event
   //   .create("incomplete_silicon_press", "create:sequenced_assembly")
   //   .texture("ae2:item/silicon_press");
