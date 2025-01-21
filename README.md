@@ -20,3 +20,15 @@ Mainly based around create with some storage mods thrown in and integrated with 
    ```
    this will make autocomplete work in vscode
 9. Open the `.minecraft` folder in VSCode to make your changes.
+
+Uses:
+https://legacy.curseforge.com/minecraft/texture-packs/create-energistics
+
+## Update guide
+
+### Servers
+
+1. Delete the `config`, `defaultconfigs`, `kubejs` and `mods` directory
+2. Download the new server pack
+3. Upload it to the server
+4. extract all the files so the `kubejs`, `mods` and `configureddefaults` folders are in the right place
