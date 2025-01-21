@@ -1,0 +1,17 @@
+{
+	"formatVersion": "1.0",
+	"advanced": {
+		"minecraft:lava": {
+			"minecraft:water": {
+				"results": {
+					"create:experience_block": [
+						{
+							"id": "ae2:sky_stone_block",
+							"weight": 1
+						}
+					]
+				}
+			}
+	}
+	}
+}

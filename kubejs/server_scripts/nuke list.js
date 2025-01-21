@@ -68,4 +68,8 @@ global.itemsToRemove = [
   "toms_storage:ts.storage_terminal",
   "farmersdelight:wheat_dough",
   "createdeco:netherite_sheet",
+  "ae2:inscriber",
+  "ae2:meteorite_compass",
+  "ae2:name_press",
+  "ae2:flawless_budding_quartz",
 ];

@@ -219,6 +219,123 @@
       ]
     },
     {
+      "pakku_id": "3tnSKxz45Q7qz7xN",
+      "type": "MOD",
+      "side": "BOTH",
+      "slug": {
+        "curseforge": "applied-energistics-2",
+        "modrinth": "ae2"
+      },
+      "name": {
+        "curseforge": "Applied Energistics 2",
+        "modrinth": "Applied Energistics 2"
+      },
+      "id": {
+        "curseforge": "223794",
+        "modrinth": "XxWD5pD3"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "appliedenergistics2-forge-15.3.3.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["neoforge", "forge"],
+          "release_type": "release",
+          "url": "https://edge.forgecdn.net/files/6091/401/appliedenergistics2-forge-15.3.3.jar",
+          "id": "6091401",
+          "parent_id": "223794",
+          "hashes": {
+            "sha1": "37ba16fa86aeab788d7b916bb45c25638df5cfb0",
+            "md5": "c7e870e3200139ebe8f260c4ea52b622"
+          },
+          "required_dependencies": [],
+          "size": 9746146,
+          "date_published": "2025-01-15T23:06:41.440Z"
+        },
+        {
+          "type": "modrinth",
+          "file_name": "appliedenergistics2-forge-15.3.3.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["forge", "neoforge"],
+          "release_type": "release",
+          "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/JSY0V9J5/appliedenergistics2-forge-15.3.3.jar",
+          "id": "JSY0V9J5",
+          "parent_id": "XxWD5pD3",
+          "hashes": {
+            "sha512": "e1da8e1666b3d221fe82ec14a4f88b15c34c0ef445c526ae0f3baa8f50d52276b35360433413db6af0e7232fc4e5a685fdd05754d912c7b1e387ad8fbaf2527c",
+            "sha1": "37ba16fa86aeab788d7b916bb45c25638df5cfb0"
+          },
+          "required_dependencies": [],
+          "size": 9746146,
+          "date_published": "2025-01-15T23:06:49.856833Z"
+        }
+      ]
+    },
+    {
+      "pakku_id": "yRd6ZsCzj6qpDgDX",
+      "pakku_links": [
+        "IDwrHp3m5eAg3SBb",
+        "Z9nkPFO3puyHrPC5",
+        "sA9Vu9PxHwvZqbMI",
+        "3tnSKxz45Q7qz7xN"
+      ],
+      "type": "MOD",
+      "side": "BOTH",
+      "slug": {
+        "curseforge": "applied-energistics-2-wireless-terminals",
+        "modrinth": "applied-energistics-2-wireless-terminals"
+      },
+      "name": {
+        "curseforge": "Applied Energistics 2 Wireless Terminals",
+        "modrinth": "Applied Energistics 2 Wireless Terminals"
+      },
+      "id": {
+        "curseforge": "459929",
+        "modrinth": "pNabrMMw"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "ae2wtlib-15.2.3-forge.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["neoforge", "forge"],
+          "release_type": "release",
+          "url": "https://edge.forgecdn.net/files/5217/955/ae2wtlib-15.2.3-forge.jar",
+          "id": "5217955",
+          "parent_id": "459929",
+          "hashes": {
+            "sha1": "9a35bc25ba2daade63db76ff4012eb68b0392b08",
+            "md5": "b564aeaa6cff74f6f6402481819c5717"
+          },
+          "required_dependencies": [],
+          "size": 213482,
+          "date_published": "2024-03-28T12:58:33.250Z"
+        },
+        {
+          "type": "modrinth",
+          "file_name": "ae2wtlib-15.2.3-forge.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["forge", "neoforge"],
+          "release_type": "release",
+          "url": "https://cdn.modrinth.com/data/pNabrMMw/versions/O1Gg7y6z/ae2wtlib-15.2.3-forge.jar",
+          "id": "O1Gg7y6z",
+          "parent_id": "pNabrMMw",
+          "hashes": {
+            "sha512": "dc250ee0e998ec3e24cbd2f0f81304ac80a95ed94106dadc553af954feb492953397455e2e39a3ec80dc5bc3c0d5e9197d657a9f48e41d3de6a74cc1a31b75e9",
+            "sha1": "9a35bc25ba2daade63db76ff4012eb68b0392b08"
+          },
+          "required_dependencies": [
+            "lhGA9TYQ",
+            "9s6osm5g",
+            "vvuO3ImH",
+            "XxWD5pD3"
+          ],
+          "size": 213482,
+          "date_published": "2024-03-28T12:58:35.065897Z"
+        }
+      ]
+    },
+    {
       "pakku_id": "IDwrHp3m5eAg3SBb",
       "type": "MOD",
       "side": "BOTH",
@@ -713,6 +830,59 @@
           "required_dependencies": [],
           "size": 1181413,
           "date_published": "2024-09-16T17:13:50.725690Z"
+        }
+      ]
+    },
+    {
+      "pakku_id": "TFpKzWwxQI2MYZoY",
+      "type": "MOD",
+      "side": "SERVER",
+      "slug": {
+        "curseforge": "cobblegen",
+        "modrinth": "cobblegen"
+      },
+      "name": {
+        "curseforge": "CobbleGen [Fabric/Forge]",
+        "modrinth": "CobbleGen"
+      },
+      "id": {
+        "curseforge": "581293",
+        "modrinth": "qRogT5Gy"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "cobblegen-5.3.14+1.20.1b50-BETA-forge.jar",
+          "mc_versions": ["1.20.1", "1.20"],
+          "loaders": ["neoforge", "forge"],
+          "release_type": "beta",
+          "url": "https://edge.forgecdn.net/files/6024/952/cobblegen-5.3.14+1.20.1b50-BETA-forge.jar",
+          "id": "6024952",
+          "parent_id": "581293",
+          "hashes": {
+            "sha1": "66a717aadcea9c2d6f072492a2c5915267a7c658",
+            "md5": "8f45caa30d18a2e276aee198e6daa3c5"
+          },
+          "required_dependencies": [],
+          "size": 524172,
+          "date_published": "2024-12-26T15:45:59.473Z"
+        },
+        {
+          "type": "modrinth",
+          "file_name": "cobblegen-5.3.14+1.20.1b50-BETA-forge.jar",
+          "mc_versions": ["1.20", "1.20.1"],
+          "loaders": ["forge", "neoforge"],
+          "release_type": "beta",
+          "url": "https://cdn.modrinth.com/data/qRogT5Gy/versions/72t2iRqA/cobblegen-5.3.14+1.20.1b50-BETA-forge.jar",
+          "id": "72t2iRqA",
+          "parent_id": "qRogT5Gy",
+          "hashes": {
+            "sha512": "5eecd252c8780158d590dba163dbaa92fa3ea592ce1d434e4df8a70b441ed048e73a915306c5d2241bbe307a43bdabb6edb15b05fd4ad39684075bff20c8fb60",
+            "sha1": "66a717aadcea9c2d6f072492a2c5915267a7c658"
+          },
+          "required_dependencies": [],
+          "size": 524172,
+          "date_published": "2024-12-26T15:46:01.238650Z"
         }
       ]
     },
@@ -1300,6 +1470,60 @@
           "required_dependencies": ["LNytGWDc"],
           "size": 495595,
           "date_published": "2024-05-10T05:33:27.401639Z"
+        }
+      ]
+    },
+    {
+      "pakku_id": "DraSWdQCQwcAyfIG",
+      "pakku_links": ["ogXU4VAy8CTu8Omh"],
+      "type": "MOD",
+      "side": "BOTH",
+      "slug": {
+        "curseforge": "create-applied-kinetics",
+        "modrinth": "create-applied-kinetics"
+      },
+      "name": {
+        "curseforge": "Create: Applied Kinetics",
+        "modrinth": "Create: Applied Kinetics"
+      },
+      "id": {
+        "curseforge": "867328",
+        "modrinth": "mYGTCuZY"
+      },
+      "files": [
+        {
+          "type": "curseforge",
+          "file_name": "createappliedkinetics-1.4.0-1.20.1.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["neoforge", "forge"],
+          "release_type": "release",
+          "url": "https://edge.forgecdn.net/files/5686/29/createappliedkinetics-1.4.0-1.20.1.jar",
+          "id": "5686029",
+          "parent_id": "867328",
+          "hashes": {
+            "sha1": "336379b96d16df9ebd18a7beb69c3ec4d7dfbff2",
+            "md5": "aa1fdba8eb92af64d6ffd81dbe1af812"
+          },
+          "required_dependencies": [],
+          "size": 67277,
+          "date_published": "2024-09-02T11:13:22.467Z"
+        },
+        {
+          "type": "modrinth",
+          "file_name": "createappliedkinetics-1.4.0-1.20.1.jar",
+          "mc_versions": ["1.20.1"],
+          "loaders": ["forge", "neoforge"],
+          "release_type": "release",
+          "url": "https://cdn.modrinth.com/data/mYGTCuZY/versions/d9CAiaER/createappliedkinetics-1.4.0-1.20.1.jar",
+          "id": "d9CAiaER",
+          "parent_id": "mYGTCuZY",
+          "hashes": {
+            "sha512": "5dd65c2c5dc7d3132c3267c7787ce8dbd30c80a57bf021c190650157eb2c44911da39eb59d2d9e283a1cc45cfa3d9eadf7998c5b83ce7badb1a7f185c49db56a",
+            "sha1": "336379b96d16df9ebd18a7beb69c3ec4d7dfbff2"
+          },
+          "required_dependencies": ["LNytGWDc"],
+          "size": 67277,
+          "date_published": "2024-09-02T11:12:38.606145Z"
         }
       ]
     },

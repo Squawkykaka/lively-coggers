@@ -1,9 +1,14 @@
-## Removed mods:
+## Added mods
 
-- Removed observable as it was unneeded with spark
+- Create: Power loader
+- Ae2
+- Applied kinetics
+- Ae2wtlib
+
+## Removed mods:
 
 ## Oher changes:
 
-- Added a custom ponder scene for the inventory connector
-- Added linting action to the ci/cd pipeline
-- Changed toms storage recipes to be cheaper
+- Removed meteorite spawning
+- Removed meteorite compass
+- Ae2 processors now have custom recipes involving liquid xp
