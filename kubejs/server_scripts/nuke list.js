@@ -70,5 +70,6 @@ global.itemsToRemove = [
   "createdeco:netherite_sheet",
   "ae2:inscriber",
   "ae2:meteorite_compass",
-  "ae2:name_press"
+  "ae2:name_press",
+  "ae2:flawless_budding_quartz"
 ];

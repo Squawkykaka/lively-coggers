@@ -33,3 +33,7 @@ ServerEvents.recipes((event) => {
         event.recipes.create.deploying(transition, [transition, "ae2:charged_certus_quartz_crystal"])
     ]).transitionalItem(transition).loops(1);
 })
+
+ServerEvents.recipes((event) => {
+    event.recipes.create.item_application("ae2:flawed_budding_quartz", ["minecraft:budding_amethyst", "minecraft:sculk_shrieker"])
+})
