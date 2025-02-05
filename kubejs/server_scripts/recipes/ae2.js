@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  const transition = "kubejs:incomplete_silicon_press";
+  const transition = "createappliedkinetics:incomplete_silicon_press";
 
   event.recipes.create
     .sequenced_assembly(
@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
 });
 
 ServerEvents.recipes((event) => {
-  const transition = "kubejs:incomplete_engineering_press";
+  const transition = "createappliedkinetics:incomplete_engineering_processor_press";
 
   event.recipes.create
     .sequenced_assembly(
@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
 });
 
 ServerEvents.recipes((event) => {
-  const transition = "kubejs:incomplete_logic_press";
+  const transition = "createappliedkinetics:incomplete_logic_processor_press";
 
   event.recipes.create
     .sequenced_assembly(
@@ -59,7 +59,7 @@ ServerEvents.recipes((event) => {
 });
 
 ServerEvents.recipes((event) => {
-  const transition = "kubejs:incomplete_calculation_press";
+  const transition = "createappliedkinetics:incomplete_calculation_processor_press";
 
   event.recipes.create
     .sequenced_assembly(
