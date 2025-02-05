@@ -18,7 +18,8 @@ ServerEvents.recipes((event) => {
 });
 
 ServerEvents.recipes((event) => {
-  const transition = "createappliedkinetics:incomplete_engineering_processor_press";
+  const transition =
+    "createappliedkinetics:incomplete_engineering_processor_press";
 
   event.recipes.create
     .sequenced_assembly(
@@ -59,7 +60,8 @@ ServerEvents.recipes((event) => {
 });
 
 ServerEvents.recipes((event) => {
-  const transition = "createappliedkinetics:incomplete_calculation_processor_press";
+  const transition =
+    "createappliedkinetics:incomplete_calculation_processor_press";
 
   event.recipes.create
     .sequenced_assembly(
