@@ -3,3 +3,4 @@
 Isorender
 
 Make amethyst get turned into flawed certus when converted by sculk
+Remove incomplte items from jei

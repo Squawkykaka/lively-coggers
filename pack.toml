@@ -1,0 +1,13 @@
+name = "Lively Coggers"
+author = "Squawkykaka"
+version = "dev"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b8cf791b8560a902e7cf0a6f599988d3bcbb6373beb7f6202d1644e359cc7e13"
+
+[versions]
+forge = "47.3.0"
+minecraft = "1.20.1"
