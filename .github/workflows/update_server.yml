@@ -1,0 +1,16 @@
+on:
+    workflow_dispatch:
+
+name: Update Server
+
+jobs:
+    update_server:
+        runs-on: ubuntu-latest
+        steps:
+        - name: RCON Connection
+          uses: Plagiatus/RCON-Action@v0.2
+          with:
+            server: ${{ secrets.RCON_SERVER }}
+            port: 25516
+            password: ${{ secrets.RCON_PASSWORD }}
+            commands: '["say hi", "reload"]'
