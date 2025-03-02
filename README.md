@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/squawkykaka/lively-coggers/badge/main)](https://www.codefactor.io/repository/github/squawkykaka/lively-coggers/overview/main)
+
 # This is a modpack for a SMP launching in a few weeks
 
 Mainly based around create with some storage mods thrown in and integrated with create
